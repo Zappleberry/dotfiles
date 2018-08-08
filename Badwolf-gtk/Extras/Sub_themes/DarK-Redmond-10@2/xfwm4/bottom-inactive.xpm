@@ -1,0 +1,9 @@
+/* XPM */
+static char *bottom_inactive[] = {
+/* columns rows colors chars-per-pixel */
+"62 2 1 1 ",
+"  c magenta s active_shadow_2",
+/* pixels */
+"                                                              ",
+"                                                              "
+};

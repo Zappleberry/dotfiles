@@ -1,0 +1,12 @@
+open_with java
+open_with java -jar
+shell 
+bulkrename vi
+bulkrename
+bulkrename 
+search nixos
+open_with 
+find 
+cd ~/.themes
+
+delete

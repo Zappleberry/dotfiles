@@ -1,0 +1,7 @@
+rofi.theme: ~/.rofi-themes/badwolf.rasi
+rofi.enable-drun: true
+rofi.kb-mode-next: Super+space
+rofi.font: hack 12
+rofi.lines: 10
+rofi.columns: 2
+rofi.modi: run,drun
