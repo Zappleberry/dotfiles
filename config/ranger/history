@@ -1,12 +1,17 @@
 open_with java
 open_with java -jar
-shell 
 bulkrename vi
-bulkrename
-bulkrename 
 search nixos
-open_with 
 find 
 cd ~/.themes
-
+shell 
+cd .dotfiles/
+cd .config/
+open_with vim
+rm
 delete
+open_with 
+open_with zathura
+bulkrename
+
+bulkrename 
