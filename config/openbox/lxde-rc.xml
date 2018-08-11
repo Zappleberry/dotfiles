@@ -119,17 +119,19 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <!-- ⌂⏶⏹⏺⏼⏻▪◇▴♉✧✦⬢⬡
+    <!-- ⏶⏹⏺⏼⏻◇▴♉✧✦⬢⬡⯀⯅⯁🠵▪🞟🞠🞙🞜🞛🟄🟆
+         🞅🞆🞇🞈🞉🞊🞋
+         🞤🞽🞷🞫
         -->
     <number>6</number>
     <firstdesk>1</firstdesk>
     <names>
-      <name>⏶⏺⏺⏺⏺⏺</name>
-      <name>⏺⏶⏺⏺⏺⏺</name>
-      <name>⏺⏺⏶⏺⏺⏺</name>
-      <name>⏺⏺⏺⏶⏺⏺</name>
-      <name>⏺⏺⏺⏺⏶⏺</name>
-      <name>⏺⏺⏺⏺⏺⏶</name>
+      <name>✦✧✧✧✧✧</name>
+      <name>✧✦✧✧✧✧</name>
+      <name>✧✧✦✧✧✧</name>
+      <name>✧✧✧✦✧✧</name>
+      <name>✧✧✧✧✦✧</name>
+      <name>✧✧✧✧✧✦</name>
     </names>
     <popupTime>0</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
