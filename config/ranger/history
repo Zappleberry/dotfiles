@@ -6,7 +6,6 @@ find
 cd ~/.themes
 shell 
 cd .dotfiles/
-cd .config/
 open_with vim
 rm
 delete
@@ -15,3 +14,5 @@ open_with zathura
 bulkrename
 
 bulkrename 
+cd .config/
+cd /home/zach/.dotfiles/

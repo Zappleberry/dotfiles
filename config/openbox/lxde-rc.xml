@@ -145,10 +145,10 @@
     <!-- 'Center', 'Top', or 'Fixed' -->
     <popupFixedPosition>
       <!-- these are used if popupPosition is set to 'Fixed' -->
-      <x>10</x>
+      <x>-31</x>
       <!-- positive number for distance from left edge, negative number for
          distance from right edge, or 'Center' -->
-      <y>10</y>
+      <y>31</y>
       <!-- positive number for distance from top edge, negative number for
          distance from bottom edge, or 'Center' -->
     </popupFixedPosition>
