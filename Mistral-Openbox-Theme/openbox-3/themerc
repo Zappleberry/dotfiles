@@ -35,7 +35,7 @@ window.*.grip.bg: Flat Solid
 window.*.grip.bg.color: #eaebec
 
 
-window.active.border.color: #4C555D
+window.active.border.color: #857f78
 window.active.title.separator.color: #1C1B1A
 
 *.title.bg: Flat Solid
