@@ -3,7 +3,7 @@
 ## TODO
 
 - Make speedy script for my use-case (set up symbolic links).
-- **DONE** Fix the GTK3/qt radio-button and check marks.
+- **Known Issue** Fix the GTK3/qt radio-button and check marks.
 
 ## Badwolf gtk theme
 
