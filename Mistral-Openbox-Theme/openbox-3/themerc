@@ -8,7 +8,7 @@ menu.overlap: 2
 *.justify: left
 
 
-menu.border.color: #4C555D
+menu.border.color: #222427
 menu.border.width: 1
 
 menu.title.bg: solid flat
@@ -35,7 +35,7 @@ window.*.grip.bg: Flat Solid
 window.*.grip.bg.color: #eaebec
 
 
-window.active.border.color: #857f78
+window.active.border.color: #222427
 window.active.title.separator.color: #1C1B1A
 
 *.title.bg: Flat Solid
