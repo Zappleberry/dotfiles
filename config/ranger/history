@@ -8,12 +8,12 @@ shell
 cd .dotfiles/
 open_with vim
 rm
-delete
 open_with 
 open_with zathura
-bulkrename
 
 bulkrename 
 cd .config/
 cd /home/zach/.dotfiles/
 cd /home/zach/.dotfiles/Mistral-Openbox-Theme
+bulkrename
+delete

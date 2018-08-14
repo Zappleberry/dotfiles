@@ -1,52 +1,42 @@
-*foreground: #f8f6ef
-*foreground_bold: #a8a19f
-*cursor: #a8a19f
-*background: #1c1b1a
-!!*background: rgba(0, 0, 0, .7)
+! special
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
 
-!! black
-!! mostly used for the background
-*color0: #1c1b1a
-!! Ambigous dark grey
-*color8: #766e6b
-!! blue
-!! ranger uses for archives
-!! and empty folders
-*color1: #166ef2
-*color9: #166ef2
-!! oranges
-!! used mainly for user@host
-!! and eexecutables
-*color2: #eb9122
-*color10: #eb9122
-!! yellow select
-!! used by ranger to be the selected files/folders
-!! and pictures
-!! used by newsboat to be the text color of hovered item
-*color3: #fade3e
-!! Used by mp-youtube when displaying searched name and comments
-*color11: #fade3e
-!! red
-!! Mostly folders in ranger
-!! background of hovered text in newsboat
-*color4: #fc2a36
-*color12: #fc2a36
-!! pale yellow
-!! honestly don't know when it is used.
-*color5: #f1c869
-*color13: #f1c869
-!! Seafoam green
-!! Don't know when it's used
-*color6: #00ad9c
-*color14: #00ad9c
-!! Dull grey like above
-!! Don't know when it's used
-*color7: #a8a19f
-!! whitish grey similar to text color
-*color15: #f8f6ef
+! black
+*.color0:       #1d1f21
+*.color8:       #969896
+
+! red
+*.color1:       #cc6666
+*.color9:       #cc6666
+
+! green
+*.color2:       #b5bd68
+*.color10:      #b5bd68
+
+! yellow
+*.color3:       #f0c674
+*.color11:      #f0c674
+
+! blue
+*.color4:       #81a2be
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #b294bb
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #8abeb7
+*.color14:      #8abeb7
+
+! white
+*.color7:       #c5c8c6
+*.color15:      #ffffff
 
 URxvt.intensityStyles:	false
-URxvt.background:       [100]#1c1b1a
+!! URxvt.background:       [100]#1c1b1a
 URxvt.depth:		32
 URxvt.font: 		xft:hack:size=9
 URxvt.scrollBar:	false
