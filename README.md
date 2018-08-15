@@ -3,6 +3,7 @@
 ## TODO
 
 - Make speedy script for my use-case (set up symbolic links).
+- Fix the fonts.
 - **Known Issue** Fix the GTK3/qt radio-button and check marks.
 
 ## Badwolf gtk theme
@@ -42,3 +43,9 @@ Not using this at the moment, will use in future use cases for launching bpswm.
 ## Xmodmap
 
 Just remaps caps_lock and escape. It works fine, but getting lxde to launch it on startup is a pain.
+
+## Fonts
+
+Contains siji bitmap font. I know that it can be enabled by setting:
+`/etc/fonts/conf.d/70-no-bitmaps.conf` to `/etc/fonts/conf.d/70-no-bitmaps.conf.old` (disabling the file)
+However, when I do this, it just causes some fonts to loose their aliasing. I'm not sure what the solution is, but I am looking into it.
