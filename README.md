@@ -30,7 +30,11 @@ Badwolf theme for rofi. I used arc-red to make it.
 
 ## spacemacs
 
-My spacemacs config. Build spacemacs with minimal install and ivy, only modifications are the font (Hack) and the theme (Badwolf).
+My spacemacs config. Build spacemacs with minimal install and ivy, only modifications are the font (Hack) and the theme (Tomorrow).
+
+## .emacs.d.bak
+
+My emacs configurations. Trying to switch back to normal emacs + evil as spacemacs is about twice as heavy. That or possibly starting emacs as a daemon on login. Maybe both.
 
 ## Xdefaults
 
