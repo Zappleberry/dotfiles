@@ -7,6 +7,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/extensions/")
+(add-to-list 'load-path "~/.emacs.d/elpa/")
 
 (require 'color-theme-sanityinc-tomorrow)
 (load-theme 'sanityinc-tomorrow-night t)

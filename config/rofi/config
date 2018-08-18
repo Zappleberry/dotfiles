@@ -1,4 +1,4 @@
-rofi.theme: ~/.rofi-themes/tomorrow.rasi
+rofi.theme: ~/.rofi-themes/base16-ashes.rasi
 rofi.enable-drun: true
 rofi.kb-mode-next: Super+space
 rofi.font: hack 12
