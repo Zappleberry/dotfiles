@@ -6,6 +6,10 @@
 - Fix the fonts.
 - **Known Issue** Fix the GTK3/qt radio-button and check marks.
 
+## Why directory is a bit of a mess
+
+I am currently figuring out which theme I am happy with. I will clean it up once I am happy with what theme I want to stick with.
+
 ## Badwolf gtk theme
 
 Badwolf is a theme I forked from [DarK by sixsixfive](https://gitlab.com/sixsixfive/DarK-theme). It looked nice and I wanted to make a badwolf color variant.
