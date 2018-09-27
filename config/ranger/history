@@ -7,15 +7,16 @@ cd ~/.themes
 shell 
 cd .dotfiles/
 open_with vim
-open_with 
 open_with zathura
-bulkrename 
 cd .config/
 cd /home/zach/.dotfiles/
 cd /home/zach/.dotfiles/Mistral-Openbox-Theme
 bulkrename
 rm
-
 cd /home/zach/.mozilla/firefox/tkl3vuz6.default
-delete
 rename leshen_concept_art
+bulkrename 
+open_with 
+
+tab_new /media/zach
+delete
