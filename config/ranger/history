@@ -2,21 +2,24 @@ open_with java
 open_with java -jar
 bulkrename vi
 search nixos
-find 
 cd ~/.themes
-shell 
 cd .dotfiles/
 open_with vim
 open_with zathura
 cd .config/
 cd /home/zach/.dotfiles/
 cd /home/zach/.dotfiles/Mistral-Openbox-Theme
-bulkrename
 rm
 cd /home/zach/.mozilla/firefox/tkl3vuz6.default
 rename leshen_concept_art
-bulkrename 
-open_with 
 
 tab_new /media/zach
+find 
+open_with 
+shell 
+bulkrename 
 delete
+cd ~
+mkdir img
+mark
+bulkrename

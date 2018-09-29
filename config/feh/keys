@@ -1,0 +1,19 @@
+# unsetting the keys bound to next/previous image by stating it without assigning any keys:
+next_img
+prev_img
+# further unsetting:
+zoom_in 
+zoom_out 
+scroll_right 
+scroll_left 
+scroll_up 
+scroll_down 
+# custom key mapping:
+zoom_in Up k
+zoom_out Down j
+next_img Left l
+prev_img Right h
+scroll_right L
+scroll_left H
+scroll_up K
+scroll_down J
