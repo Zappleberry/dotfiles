@@ -373,61 +373,66 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>urxvt -icon /usr/share/icons/Adwaita/32x32/apps/utilities-terminal.png</command>
+        <command>urxvt -icon /usr/share/icons/HighContrast/32x32/apps/utilities-terminal.png</command>
+      </action>
+    </keybind>
+    <keybind key="W-c">
+      <action name="Execute">
+        <command>urxvt -icon /usr/share/icons/HighContrast/32x32/mimetypes/x-office-calendar.png -e calcurse -q</command>
       </action>
     </keybind>
     <keybind key="W-w">
-      <action name="Execute">
+      <action name="execute">
         <command>emacs</command>
       </action>
     </keybind>
     <keybind key="W-i">
-      <action name="Execute">
+      <action name="execute">
         <command>firefox</command>
       </action>
     </keybind>
     <keybind key="W-p">
-      <action name="Execute">
+      <action name="execute">
         <command>firefox --private-window https://duckduckgo.com</command>
       </action>
     </keybind>
-    <!-- Keybindings for finding files -->
-    <!--keybindings for LXPanel -->
-    <!-- <keybind key="W-r">
-      <action name="Execute">
+    <!-- keybindings for finding files -->
+    <!--keybindings for lxpanel -->
+    <!-- <keybind key="w-r">
+      <action name="execute">
         <command>lxpanelctl run</command>
       </action>
     </keybind> -->
-    <keybind key="W-r">
-      <action name="Execute">
+    <keybind key="w-r">
+      <action name="execute">
         <command>rofi -show run</command>
       </action>
     </keybind>
     <keybind key="W-A-v">
-      <action name="Execute">
-        <command>~/.pia.sh</command>
+      <action name="execute">
+        <command>sh ~/.pia.sh</command>
       </action>
     </keybind>
-    <keybind key="W-S-d">
-      <action name="ToggleDecorations"/>
+    <keybind key="w-s-d">
+      <action name="toggledecorations"/>
     </keybind>
-    <!-- <keybind key="A-F2">
-      <action name="Execute">
+    <!-- <keybind key="a-f2">
+      <action name="execute">
         <command>lxpanelctl run</command>
       </action>
     </keybind>
-    <keybind key="C-Escape">
-      <action name="Execute">
+    <keybind key="c-escape">
+      <action name="execute">
         <command>lxpanelctl menu</command>
       </action>
     </keybind>
-    <keybind key="A-F1">
-      <action name="Execute">
+    <keybind key="a-f1">
+      <action name="execute">
         <command>lxpanelctl menu</command>
       </action>
     </keybind> -->
-    <keybind key="A-F11">
-      <action name="ToggleFullscreen"/>
+    <keybind key="a-f11">
+      <action name="togglefullscreen"/>
     </keybind>
     <!-- Launch Task Manager with Ctrl+Alt+Del -->
     <keybind key="A-C-Delete">
