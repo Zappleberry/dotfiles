@@ -4,7 +4,6 @@ bulkrename vi
 search nixos
 cd ~/.themes
 cd .dotfiles/
-open_with vim
 open_with zathura
 cd .config/
 cd /home/zach/.dotfiles/
@@ -23,3 +22,6 @@ cd ~
 mkdir img
 mark
 bulkrename
+shell convert-im
+shell convert 01_03* -negate 
+open_with vim

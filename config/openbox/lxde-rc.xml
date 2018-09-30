@@ -381,6 +381,16 @@
         <command>emacs</command>
       </action>
     </keybind>
+    <keybind key="W-i">
+      <action name="Execute">
+        <command>firefox</command>
+      </action>
+    </keybind>
+    <keybind key="W-p">
+      <action name="Execute">
+        <command>firefox --private-window https://duckduckgo.com</command>
+      </action>
+    </keybind>
     <!-- Keybindings for finding files -->
     <!--keybindings for LXPanel -->
     <!-- <keybind key="W-r">
@@ -462,7 +472,12 @@
         <command>sh ~/.scripts/brightness-down.sh</command>
       </action>
     </keybind>
-  </keyboard>
+     <keybind key="W+XF86MonBrightnessDown">
+      <action name="Execute">
+        <command>notify-send "$(echo "$(xrandr --verbose | grep -i eDP-1 -A 5 | grep -i Brightness | grep -o '[0-9].*')")"</command>
+      </action>
+    </keybind>
+ </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>
     <!-- number of pixels the mouse must move before a drag begins -->
