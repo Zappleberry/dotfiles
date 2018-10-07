@@ -392,9 +392,9 @@
       </action>
     </keybind>
     <keybind key="W-p">
-    <action name="execute">
-    <command>firefox --private-window https://duckduckgo.com</command>
-    </action>
+      <action name="execute">
+        <command>firefox --private-window https://duckduckgo.com</command>
+      </action>
     </keybind>
     <!-- keybindings for finding files -->
     <!--keybindings for lxpanel -->
@@ -482,7 +482,7 @@
         <command>notify-send "$(echo "$(xrandr --verbose | grep -i eDP-1 -A 5 | grep -i Brightness | grep -o '[0-9].*')")"</command>
       </action>
     </keybind>
- </keyboard>
+  </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>
     <!-- number of pixels the mouse must move before a drag begins -->
