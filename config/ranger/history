@@ -20,9 +20,10 @@ bulkrename
 cd ~
 mkdir img
 mark
-bulkrename
 shell convert-im
 shell convert 01_03* -negate 
 open_with vim
 cd /media/
 delete
+shell ls -a
+bulkrename

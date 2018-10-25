@@ -13,14 +13,17 @@ super + c
 super + r
       rofi -show run
 
+super + o
+      urxvt -e octave -q --no-gui
+
 super + alt + v
       sh ~/.pia.sh
 
 super + w
       emacs
 
-super + i{_, + p}
-      {firefox,firefox --private-window https://duckduckgo.com}
+super + i{, + p}
+      firefox {,--private-window https://duckduckgo.com}
 
 XF86Audio{Raise,Lower}Volume
       amixer -q sset Master 5%{+,-}
