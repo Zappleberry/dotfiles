@@ -11,13 +11,11 @@ cd /home/zach/.dotfiles/Mistral-Openbox-Theme
 rm
 cd /home/zach/.mozilla/firefox/tkl3vuz6.default
 rename leshen_concept_art
-
 tab_new /media/zach
 find 
 open_with 
 shell 
 bulkrename 
-cd ~
 mkdir img
 mark
 shell convert-im
@@ -26,4 +24,7 @@ open_with vim
 cd /media/
 delete
 shell ls -a
+cd /media/zach/A93B-5575/
+cd ~
+
 bulkrename

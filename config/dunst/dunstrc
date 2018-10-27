@@ -156,7 +156,7 @@ max_icon_size = 80
 icon_path = /usr/share/icons/Paper/16x16/mimetypes/:/usr/share/icons/Paper/48x48/status/:/usr/share/icons/Paper/16x16/devices/:/usr/share/icons/Paper/48x48/notifications/:/usr/share/icons/Paper/48x48/emblems/
 
 frame_width = 1
-frame_color = "#FFFFFF"
+frame_color = "#C7CCD1"
 
 [shortcuts]
 
@@ -196,8 +196,8 @@ background = "#1c2023"
 timeout = 5
 
 [urgency_critical]
-frame_color = "#c795ae"
-foreground = "#c795ae"
+frame_color = "#c7ae95"
+foreground = "#c7ae95"
 background = "#1c2023"
 #background = "#2B313C"
 timeout = 8
@@ -255,3 +255,21 @@ timeout = 8
 #    urgency = normal
 #
 # vim: ft=cfg
+#
+#frame_color = "#C7CCD1"
+#separator_color = "#C7CCD1"
+#
+#[base16_low]
+#    msg_urgency = low
+#    background = "#393F45"
+#    foreground = "#747C84"
+#
+#[base16_normal]
+#    msg_urgency = normal
+#    background = "#565E65"
+#    foreground = "#C7CCD1"
+#
+#[base16_critical]
+#    msg_urgency = critical
+#    background = "#C7AE95"
+#    foreground = "#DFE2E5"
