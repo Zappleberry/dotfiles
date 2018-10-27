@@ -6,6 +6,7 @@ download_dir=$(pwd)
 ln -sv $download_dir/Xdefaults ~/.Xdefaults
 ln -sv $download_dir/Xmodmap ~/.Xmodmap
 ln -sv $download_dir/rofi-themes ~/.rofi-themes
+ln -sfv $download_dir/bashrc ~/.bashrc
 
 # linking configuration files. Do not use because it causes infinite loop.
 ln -sTv $download_dir/config/dunst/ ~/.config/dunst
