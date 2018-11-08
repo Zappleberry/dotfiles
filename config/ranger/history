@@ -11,20 +11,37 @@ cd /home/zach/.dotfiles/Mistral-Openbox-Theme
 rm
 cd /home/zach/.mozilla/firefox/tkl3vuz6.default
 rename leshen_concept_art
-tab_new /media/zach
 find 
-open_with 
 shell 
-bulkrename 
-mkdir img
-mark
 shell convert-im
 shell convert 01_03* -negate 
 open_with vim
 cd /media/
-delete
 shell ls -a
 cd /media/zach/A93B-5575/
 cd ~
+bulkrename 
+shell ll
+cd /media/zach/A93B-5575
+mkdir Supplemental_Readings
+open_with 
+shell unzip recommended_readings__INCLUDED_KEYWORDS__export.zip
+mkdir img
+tab_new /media/zach
+tab_close 
+shell convert -negate Lab06_Experiment_BP_Crit1.png -output output.png
 
+open_with khj
+shell convert Lab06_Experiment_BP_Crit1.png -negate Lab06_Experiment_BP_Crit1.png
+c
+shell convert Lab06_Experiment_BP_Crit2.png -negate Lab06_Experiment_BP_Crit2.png
+shell convert Lab06_Experiment_BP_High.png -negate Lab06_Experiment_BP_High.png
+shell convert Lab06_Experiment_BP_Low.png -negate Lab06_Experiment_BP_Low.png
+shell convert Lab06_Experiment_Filter_Circuit.jpeg Lab06_Experiment_Filter_Circuit.png
+shell convert Lab06_Experiment_Filter_Circuit.jpeg -rotate 90 Lab06_Experiment_Filter_Circuit.png
+shell convert Lab06_Experiment_Filter_Circuit.jpeg -rotate -90 Lab06_Experiment_Filter_Circuit.png
+un
+shell unzip Notes_export.zip
+delete
+mark
 bulkrename
