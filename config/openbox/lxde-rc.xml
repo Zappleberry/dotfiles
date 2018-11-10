@@ -208,19 +208,19 @@
         <wrap>no</wrap>
       </action>
     </keybind> -->
-    <keybind key="W-C-h">
+    <keybind key="W-A-h">
       <action name="SendToDesktopLeft">
         <dialog>no</dialog>
         <wrap>yes</wrap>
       </action>
     </keybind>
-    <keybind key="W-C-l">
+    <keybind key="W-A-l">
       <action name="SendToDesktopRight">
         <dialog>no</dialog>
         <wrap>yes</wrap>
       </action>
     </keybind>
-    <keybind key="W-A-l">
+    <keybind key="W-S-l">
       <action name="MoveResizeTo">
         <!-- put the window in the bottom right corner -->
         <x>-0</x>
@@ -229,7 +229,7 @@
         <width>50%</width>
       </action>
     </keybind>
-    <keybind key="W-A-h">
+    <keybind key="W-S-h">
       <action name="MoveResizeTo">
         <!-- put the window in the bottom right corner -->
         <x>0</x>
@@ -238,7 +238,7 @@
         <width>50%</width>
       </action>
     </keybind>
-    <keybind key="W-A-j">
+    <keybind key="W-S-j">
       <action name="MoveResizeTo">
         <!-- put the window in the bottom right corner -->
         <x>0</x>
@@ -247,7 +247,7 @@
         <width>100%</width>
       </action>
     </keybind>
-    <keybind key="W-A-k">
+    <keybind key="W-S-k">
       <action name="MoveResizeTo">
         <!-- put the window in the bottom right corner -->
         <x>0</x>
