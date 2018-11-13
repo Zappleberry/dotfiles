@@ -30,7 +30,6 @@ mkdir img
 tab_new /media/zach
 tab_close 
 shell convert -negate Lab06_Experiment_BP_Crit1.png -output output.png
-
 open_with khj
 shell convert Lab06_Experiment_BP_Crit1.png -negate Lab06_Experiment_BP_Crit1.png
 c
@@ -43,6 +42,8 @@ shell convert Lab06_Experiment_Filter_Circuit.jpeg -rotate -90 Lab06_Experiment_
 un
 shell unzip Notes_export.zip
 delete
+search inductance
+tab_new /media/zach/
 mark
 bulkrename
-search inductance
+
