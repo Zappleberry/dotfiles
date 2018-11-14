@@ -403,9 +403,9 @@
         <command>lxpanelctl run</command>
       </action>
     </keybind> -->
-    <keybind key="w-r">
+    <keybind key="W-r">
       <action name="execute">
-        <command>rofi -show run</command>
+        <command>dmenu_run -i -l 5 -fn Hack-9 -nb '#1c2023' -nf '#f3f4f5' -sb '#c7ae95' -sf '#1c2023'</command>
       </action>
     </keybind>
     <keybind key="W-A-v">
