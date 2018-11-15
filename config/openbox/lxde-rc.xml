@@ -413,6 +413,11 @@
         <command>sh ~/.pia.sh</command>
       </action>
     </keybind>
+    <keybind key="W-A-e">
+	<action name="execute">
+		<command>sh ~/.scripts/dmenuemoji.sh</command>
+	</action>
+    </keybind>
     <keybind key="W-S-d">
       <action name="toggledecorations"/>
     </keybind>
