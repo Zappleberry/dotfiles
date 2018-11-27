@@ -414,9 +414,9 @@
       </action>
     </keybind>
     <keybind key="W-A-e">
-	<action name="execute">
-		<command>sh ~/.scripts/dmenuemoji.sh</command>
-	</action>
+      <action name="execute">
+        <command>sh ~/.scripts/dmenuemoji.sh</command>
+      </action>
     </keybind>
     <keybind key="W-S-d">
       <action name="toggledecorations"/>
@@ -482,9 +482,9 @@
         <command>sh ~/.scripts/brightness-down.sh</command>
       </action>
     </keybind>
-    <keybind key="W+XF86MonBrightnessDown">
+    <keybind key="W-XF86MonBrightnessUp">">
       <action name="Execute">
-        <command>notify-send "$(echo "$(xrandr --verbose | grep -i eDP-1 -A 5 | grep -i Brightness | grep -o '[0-9].*')")"</command>
+	<command>sh ~/.scripts/brightness-check.sh</command>
       </action>
     </keybind>
   </keyboard>
