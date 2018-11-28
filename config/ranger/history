@@ -1,38 +1,3 @@
-bulkrename vi
-search nixos
-cd ~/.themes
-cd .dotfiles/
-open_with zathura
-cd .config/
-cd /home/zach/.dotfiles/
-cd /home/zach/.dotfiles/Mistral-Openbox-Theme
-rm
-cd /home/zach/.mozilla/firefox/tkl3vuz6.default
-rename leshen_concept_art
-find 
-shell 
-shell convert-im
-shell convert 01_03* -negate 
-cd /media/
-shell ls -a
-cd /media/zach/A93B-5575/
-cd ~
-bulkrename 
-shell ll
-cd /media/zach/A93B-5575
-mkdir Supplemental_Readings
-open_with 
-shell unzip recommended_readings__INCLUDED_KEYWORDS__export.zip
-tab_new /media/zach
-tab_close 
-shell convert -negate Lab06_Experiment_BP_Crit1.png -output output.png
-open_with khj
-shell convert Lab06_Experiment_BP_Crit1.png -negate Lab06_Experiment_BP_Crit1.png
-c
-shell convert Lab06_Experiment_BP_Crit2.png -negate Lab06_Experiment_BP_Crit2.png
-shell convert Lab06_Experiment_BP_High.png -negate Lab06_Experiment_BP_High.png
-shell convert Lab06_Experiment_BP_Low.png -negate Lab06_Experiment_BP_Low.png
-shell convert Lab06_Experiment_Filter_Circuit.jpeg Lab06_Experiment_Filter_Circuit.png
 shell convert Lab06_Experiment_Filter_Circuit.jpeg -rotate 90 Lab06_Experiment_Filter_Circuit.png
 shell convert Lab06_Experiment_Filter_Circuit.jpeg -rotate -90 Lab06_Experiment_Filter_Circuit.png
 un
@@ -48,3 +13,38 @@ cd /media/zach/
 delete
 
 mkdir img
+rename destroyed_ruins_riding_past.jpg
+rename geralt_roach_bonding.jpg
+rename anime_weirdo.png
+rename astroid_cowboy_guitar.png
+rename red_planet_astronaut.png
+rename exosuit_add_tiled.jpg
+rename neotokyo_lower_class.jpg
+rename neoSF_slums.jpg
+rename cyberpunk_ruins_mainstreet.jpg
+rename cyberpunk_subway_station.jpg
+rename cyberpunk_streetlife.jpg
+rename cyberpunk_street_theatre.jpg
+rename cyberpunk_sky_parking_arcade.jpg
+rename neoSF_china_town_drone_view.jpg
+rename neoparis_eiffal_tower.jpg
+rename sarif_industries_login.jpg
+rename sarif_industries_advert.jpg
+rename allsafe_login.png
+rename aperature_terminal_login.jpg
+rename nukacola_quantum_clothing.jpg
+rename autumn_tree_alley_evening.jpg
+rename deer_demon_dark.png
+rename lithograph_industrial_dark_japan.jpg
+rename fantasy_balvorn_vs_knight.jpg
+rename mt_fuji_autumn.jpg
+rename still_misty_lake.jpg
+rename stooting_star_night_forest.jpg
+rename lavafalls_pink_blossom_tree.jpg
+cd 
+rename extraterrestrial_mountain_range.jpg
+rename b24_air_trails.jpg
+rename grount_troops_ww2_usa.jpg
+rename 
+rename darksouls_boss_white_demon.jpg
+rename f24_takeoff.jpg
