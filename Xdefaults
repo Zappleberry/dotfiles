@@ -36,11 +36,14 @@
 *.color15:      #f3f4f5
 
 URxvt.intensityStyles:	false
-!!URxvt.background:       [100]#1c1b1a
-URxvt.depth:		32
+URxvt*background:       [75]#1c2023
+URxvt*depth:		32
 URxvt.font: 		xft:hack:size=9
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#eead0e
+
+!!URxvt*transparent: true
+!!URxvt*shading: 25
 
 !! Extensions
 URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
@@ -58,5 +61,4 @@ URxvt.resize-font.bigger:	C-Up
 URxvt.url-launcher:	webview
 URxvt.matcher.button:	1
 
-URxvt*transparent: true
-URxvt*shading: 25
+
