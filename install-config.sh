@@ -2,11 +2,14 @@
 
 download_dir=$(pwd)
 
+# When using ln -s on a directory, make sure that the option -T is invoked, otherwise you will get a infinite loop
+
 # linking Xdefaults, Xmodmap, and rofi-themes
 ln -sv $download_dir/Xdefaults ~/.Xdefaults
 ln -sv $download_dir/Xmodmap ~/.Xmodmap
-ln -sTv $download_dir/rofi-themes ~/.rofi-themes
+ln -sfTv $download_dir/rofi-themes ~/.rofi-themes
 ln -sfv $download_dir/bashrc ~/.bashrc
+ln -sfv $download_dir/vimrc ~/.vimrc
 
 # linking configuration files.
 ln -sTv $download_dir/config/dunst/ ~/.config/dunst

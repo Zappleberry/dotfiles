@@ -1,18 +1,13 @@
-shell convert Lab06_Experiment_Filter_Circuit.jpeg -rotate 90 Lab06_Experiment_Filter_Circuit.png
-shell convert Lab06_Experiment_Filter_Circuit.jpeg -rotate -90 Lab06_Experiment_Filter_Circuit.png
 un
 shell unzip Notes_export.zip
 search inductance
 tab_new /media/zach/
 mark
-bulkrename
 l
 open_with vim
 cd /media/zach/KINGSTON
 cd /media/zach/
 delete
-
-mkdir img
 rename destroyed_ruins_riding_past.jpg
 rename geralt_roach_bonding.jpg
 rename anime_weirdo.png
@@ -41,10 +36,15 @@ rename mt_fuji_autumn.jpg
 rename still_misty_lake.jpg
 rename stooting_star_night_forest.jpg
 rename lavafalls_pink_blossom_tree.jpg
-cd 
 rename extraterrestrial_mountain_range.jpg
 rename b24_air_trails.jpg
 rename grount_troops_ww2_usa.jpg
 rename 
 rename darksouls_boss_white_demon.jpg
 rename f24_takeoff.jpg
+cd /media/zach/A93B-5575/
+
+cd 
+mkdir img
+bulkrename
+bulkrename 
