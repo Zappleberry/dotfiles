@@ -405,7 +405,7 @@
     </keybind> -->
     <keybind key="W-r">
       <action name="execute">
-        <command>dmenu_run -i -p 'Run:' -l 5 -fn 'Hack-9' -nb '#1c2023' -nf '#f3f4f5' -sb '#ae95c7' -sf '#1c2023'</command>
+        <command>dmenu_run -i -p 'Run:' -fn 'Hack-9' -nb '#1c2023' -nf '#f3f4f5' -sb '#ae95c7' -sf '#1c2023'</command>
       </action>
     </keybind>
     <keybind key="W-A-v">

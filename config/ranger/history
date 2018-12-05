@@ -1,5 +1,3 @@
-un
-shell unzip Notes_export.zip
 search inductance
 tab_new /media/zach/
 mark
@@ -48,3 +46,5 @@ cd
 mkdir img
 bulkrename
 bulkrename 
+open_with 
+rename Lab08_Prelab_Graphs.png
