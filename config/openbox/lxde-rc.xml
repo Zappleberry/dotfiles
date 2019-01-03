@@ -415,7 +415,7 @@
     </keybind>
     <keybind key="W-A-e">
       <action name="execute">
-        <command>sh ~/.scripts/dmenuemoji.sh</command>
+        <command>sh ~/.scripts/dmenuemoji</command>
       </action>
     </keybind>
     <keybind key="W-S-d">
@@ -474,17 +474,17 @@
     </keybind>
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <command>sh ~/.scripts/brightness-up.sh</command>
+        <command>sh ~/.scripts/brightness-up</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <command>sh ~/.scripts/brightness-down.sh</command>
+        <command>sh ~/.scripts/brightness-down</command>
       </action>
     </keybind>
     <keybind key="W-XF86MonBrightnessUp">">
       <action name="Execute">
-	<command>sh ~/.scripts/brightness-check.sh</command>
+	<command>sh ~/.scripts/brightness-check</command>
       </action>
     </keybind>
   </keyboard>

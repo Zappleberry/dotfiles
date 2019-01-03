@@ -1,50 +1,50 @@
-mark
-l
-open_with vim
-cd /media/zach/KINGSTON
-cd /media/zach/
-delete
-rename destroyed_ruins_riding_past.jpg
-rename geralt_roach_bonding.jpg
-rename anime_weirdo.png
-rename astroid_cowboy_guitar.png
-rename red_planet_astronaut.png
-rename exosuit_add_tiled.jpg
-rename neotokyo_lower_class.jpg
-rename neoSF_slums.jpg
-rename cyberpunk_ruins_mainstreet.jpg
-rename cyberpunk_subway_station.jpg
-rename cyberpunk_streetlife.jpg
-rename cyberpunk_street_theatre.jpg
-rename cyberpunk_sky_parking_arcade.jpg
-rename neoSF_china_town_drone_view.jpg
-rename neoparis_eiffal_tower.jpg
-rename sarif_industries_login.jpg
-rename sarif_industries_advert.jpg
-rename allsafe_login.png
-rename aperature_terminal_login.jpg
-rename nukacola_quantum_clothing.jpg
-rename autumn_tree_alley_evening.jpg
-rename deer_demon_dark.png
-rename lithograph_industrial_dark_japan.jpg
-rename fantasy_balvorn_vs_knight.jpg
-rename mt_fuji_autumn.jpg
-rename still_misty_lake.jpg
-rename stooting_star_night_forest.jpg
-rename lavafalls_pink_blossom_tree.jpg
-rename extraterrestrial_mountain_range.jpg
-rename b24_air_trails.jpg
-rename grount_troops_ww2_usa.jpg
-rename 
-rename darksouls_boss_white_demon.jpg
-rename f24_takeoff.jpg
-cd /media/zach/A93B-5575/
-
-cd 
-mkdir img
-bulkrename
-bulkrename 
+rename W09.L02.pdf
+rename W09.L02.Powerpoint.pdf
+rename W10.L01.Powerpoint.pdf
+rename ImportantFormulas.1.jpg
+rename ImportantFormulas.2.jpg
+rename W10.ImportantFormulas.1.jpg
+rename W10.ImportantFormulas.2.jpg
+mkdir Solutions
 open_with 
-rename Lab08_Prelab_Graphs.png
-rename Lectures
-rename IPCC.Report.pdf
+rename 
+cd /home/zach/.scripts/
+cd /media/zach/Drive/Tor/Brooklyn.Nine.Nine
+search vide
+tab_new /media
+mkdir Redline
+mkdir 
+mkdir Sicario
+
+rename Redline.mp4
+rename Sicario.mkv
+rename Sicario.srt
+cd /media/zach/Drive/Tor/
+mkdir easystore
+rename UlyssesSGrant_Civil_War.jpg
+rename Angry_Kicking_Rhino_in_Balls.jpg
+rename Crusader_vikings.jpg
+rename Deer_Constellation_dark.jpg
+rename Vaporwave_Morning_Ocean.jpg
+rename Dreamcatcher_Antlers_Swirl.png
+rename Crow_minimal.png
+rename Squid_Navy_minimal.png
+rename ColorGradient.jpg
+rename Winter_Hunter_Layered.jpg
+rename Triangles_Nebula.jpg
+rename Circles_Ocean.jpg
+cd /media/zach
+delete
+find 
+find j
+tab_new ~/Downloads
+rename Brooklyn Nine-Nine S05E04.mp4
+rename Brooklyn Nine-Nine S05E04.mkv
+rename Brooklyn Nine-Nine S05E07.mkv
+rename Brooklyn Nine-Nine S05E09.mkv
+search s05e12
+shell mpv
+shell mpv *
+rename battery-check
+rename brightness-check
+bulkrename 
