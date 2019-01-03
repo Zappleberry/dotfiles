@@ -10,6 +10,7 @@ ln -sv $download_dir/Xmodmap ~/.Xmodmap
 ln -sfTv $download_dir/rofi-themes ~/.rofi-themes
 ln -sfv $download_dir/bashrc ~/.bashrc
 ln -sfv $download_dir/vimrc ~/.vimrc
+ln -sfv $download_dir/bash_profile ~/.bash_profile
 
 # linking configuration files.
 ln -sTv $download_dir/config/dunst/ ~/.config/dunst
