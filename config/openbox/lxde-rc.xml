@@ -396,6 +396,11 @@
         <command>firefox --private-window https://duckduckgo.com</command>
       </action>
     </keybind>
+    <keybind key="W-o">
+      <action name="execute">
+        <command>tabbed -cr 2 surf -pe x duckduckgo.com</command>
+      </action>
+    </keybind>
     <!-- keybindings for finding files -->
     <!--keybindings for lxpanel -->
     <!-- <keybind key="w-r">
