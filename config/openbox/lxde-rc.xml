@@ -398,7 +398,7 @@
     </keybind>
     <keybind key="W-o">
       <action name="execute">
-        <command>tabbed -cr 2 surf -pe x duckduckgo.com</command>
+        <command>tabbed -cr 2 surf -pe x startpage.com</command>
       </action>
     </keybind>
     <!-- keybindings for finding files -->

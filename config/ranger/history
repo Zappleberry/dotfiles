@@ -1,10 +1,3 @@
-rename Redline.mp4
-rename Sicario.mkv
-rename Sicario.srt
-cd /media/zach/Drive/Tor/
-mkdir easystore
-rename UlyssesSGrant_Civil_War.jpg
-rename Angry_Kicking_Rhino_in_Balls.jpg
 rename Crusader_vikings.jpg
 rename Deer_Constellation_dark.jpg
 rename Vaporwave_Morning_Ocean.jpg
@@ -31,10 +24,8 @@ rename brightness-check
 mkdir EEC150A
 mkdir CW
 mkdir HW
-
 rename EEC150A.2019W.HW02.Assignment.Problem5.m
 rename EEC150A.2019W.HW02.Assignment.Problem5.pdf
-bulkrename 
 tab_new /media/zach/Drive
 rename Baby.Driver
 rename Baby Driver 2017 1080p WEB-DL DD5.1 X264-CPG.mkv
@@ -43,8 +34,17 @@ rename Dunkirk
 rename Dunkirk.mp4
 rename Hell.or.High.Water
 rename Hell.or.High.Water.mkv
-delete
 rename Hell.or.High.Water.English(SDH).srt
 rename Hell.or.High.Water.English.srt
 rename Hell.or.High.Water.Spanish.srt
 rename Fundamentals.of.Microelectronics-Behzad.Razavi.pdf
+delete
+cd /media/
+cd /media/zach/A93B-5575
+cd /media/zach/Drive/
+shell touch EEC110A.2019W.OrCAD.HW01..pdf
+shell touch EEC110A.2019W.OrCAD.HW01.Submission.tex
+
+mkdir img
+tab_new /media/zach
+bulkrename 
