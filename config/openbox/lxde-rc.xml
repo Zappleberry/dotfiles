@@ -396,7 +396,7 @@
         <command>firefox --private-window https://duckduckgo.com</command>
       </action>
     </keybind>
-    <keybind key="W-o">
+    <keybind key="W-S-o">
       <action name="execute">
         <command>tabbed -cr 2 surf -pe x startpage.com</command>
       </action>
