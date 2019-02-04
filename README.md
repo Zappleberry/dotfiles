@@ -22,6 +22,10 @@ Issue isn't going to be resolved simply, probably better to use DarK by sixsixfi
 
 I figured out the issue with Badwolf and the radio/check buttons. Sixsixfive lists on their gitlab the reason behind the issue. It's from the icons for gtk3 being stored seperately from the main directory that I used (I incorrectly thought that it was just icons for applications). I tried using that directory to fix the issue several times (copying it into `/usr/share/themes`, `/usr/share/icons`, `~/.themes`, `~/.icons`, installing from sixsixfive's install script) but nothing fixed the issue when I re-applied the theme or restarted lxsession. As such, I am no longer using Badwolf and just using Adwaita. It is not desirable but I would rather invest time in making a userChrome.css for Firefox. Just in case sixsixfive sees this, I doubt it is anything to do with your theme, just me messing up something in the install process. In case anyone like's the Badwolf color variant of DarK, and doesn't mind the messups or would like to try fixing them, I am going to leave Badwolf in this repo, I think DarK has a color configuration tool though.
 
+## Openbox keybindings
+
+Currently I have the set up as Super+Key to manipulate and move around the window manager. Super+Alt+Key to change a window across desktops and to execute applications. Super+Shift+Key is to manipulate a window within a desktop.
+
 ## Mistral-Openbox-Theme
 
 The window decoration theme I am using. I think I modified it about 2018.02 for Badwolf color theme. Since been changed, don't remember when or how I changed it thoguh.
