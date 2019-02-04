@@ -376,7 +376,7 @@
         <command>urxvt -icon /usr/share/icons/HighContrast/32x32/apps/utilities-terminal.png</command>
       </action>
     </keybind>
-    <keybind key="W-c">
+    <keybind key="W-A-c">
       <action name="Execute">
         <command>urxvt -icon /usr/share/icons/HighContrast/32x32/mimetypes/x-office-calendar.png -e calcurse -q</command>
       </action>
@@ -386,17 +386,17 @@
         <command>emacs</command>
       </action>
     </keybind>
-    <keybind key="W-i">
+    <keybind key="W-A-i">
       <action name="execute">
         <command>firefox</command>
       </action>
     </keybind>
-    <keybind key="W-p">
+    <keybind key="W-A-p">
       <action name="execute">
         <command>firefox --private-window https://duckduckgo.com</command>
       </action>
     </keybind>
-    <keybind key="W-S-o">
+    <keybind key="W-A-o">
       <action name="execute">
         <command>tabbed -t '#1c2023' -T '#c795ae' -u '#1c2023' -U '#c7ae95' -cr 2 surf -pe x startpage.com</command>
       </action>
@@ -450,12 +450,12 @@
         <command>urxvt -icon /usr/share/icons/Adwaita/32x32/apps/utilities-system-monitor.png -e htop</command>
       </action>
     </keybind>
-    <!-- Launch gnome-screenshot when PrintScreen is pressed -->
+    <!-- Launch gnome-screenshot when PrintScreen is pressed
     <keybind key="Print">
       <action name="Execute">
         <command>scrot -u</command>
       </action>
-    </keybind>
+    </keybind> -->
     <!-- Launch LXRandR when Fn+Screen is pressed -->
     <keybind key="XF86Display">
       <action name="Execute">
