@@ -5,6 +5,8 @@ let mapleader = " "
 	syntax on
 	set encoding=utf-8
 	set number relativenumber
+	set ai
+	set tabstop=5
 
 " Autocomplete
 

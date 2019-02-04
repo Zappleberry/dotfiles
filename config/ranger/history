@@ -1,9 +1,3 @@
-shell mpv
-shell mpv *
-rename battery-check
-rename brightness-check
-mkdir EEC150A
-mkdir CW
 mkdir HW
 rename EEC150A.2019W.HW02.Assignment.Problem5.m
 rename EEC150A.2019W.HW02.Assignment.Problem5.pdf
@@ -44,7 +38,13 @@ shell convert Lab1-Part3-Waveform.png -fill '#010101' -opaque '#808080' result.p
 tab_new 
 rename Lab2-Part1-POS-Design-Counter.PNG
 rename Lab2-Part2-POS-Design.PNG
-delete
 
 bulkrename 
 delete 
+shell convert Lab2-Part1-POS-Design.png -negate -o result.png
+shell convert Lab2-Part1-POS-Waveform.png -negate result.png
+rename result.png
+rename 
+delete
+rename Lab2-Part1-POS-Waveform.png
+shell convert Lab2-Part1-SOP-Waveform.png -negate Lab2-Part1-SOP-Waveform.png 
