@@ -7,6 +7,7 @@ download_dir=$(pwd)
 # linking Xdefaults, Xmodmap, and rofi-themes
 ln -sv $download_dir/Xdefaults ~/.Xdefaults
 ln -sv $download_dir/Xmodmap ~/.Xmodmap
+ln -sv $download_dir/xinitrc ~/.xinitrc
 ln -sfTv $download_dir/rofi-themes ~/.rofi-themes
 ln -sfv $download_dir/bashrc ~/.bashrc
 ln -sfv $download_dir/vimrc ~/.vimrc
