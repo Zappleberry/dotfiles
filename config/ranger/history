@@ -41,10 +41,10 @@ shell convert Lab2-Part1-POS-Design.png -negate -o result.png
 shell convert Lab2-Part1-POS-Waveform.png -negate result.png
 rename result.png
 rename 
-delete
 rename Lab2-Part1-POS-Waveform.png
 shell convert Lab2-Part1-SOP-Waveform.png -negate Lab2-Part1-SOP-Waveform.png 
 tabnew /media/
 tab_new /media/
 rename EEC110A.2019W.Lecture05.pdf
 bulkrename 
+delete
