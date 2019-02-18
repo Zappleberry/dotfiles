@@ -1,6 +1,3 @@
-tab_new /media/zach/Drive
-rename Baby.Driver
-rename Baby Driver 2017 1080p WEB-DL DD5.1 X264-CPG.mkv
 rename Baby.Driver.mkv
 rename Dunkirk
 rename Dunkirk.mp4
@@ -46,5 +43,8 @@ shell convert Lab2-Part1-SOP-Waveform.png -negate Lab2-Part1-SOP-Waveform.png
 tabnew /media/
 tab_new /media/
 rename EEC110A.2019W.Lecture05.pdf
-bulkrename 
 delete
+bulkrename 
+mkdir F
+mkdir M1
+mkdir M2

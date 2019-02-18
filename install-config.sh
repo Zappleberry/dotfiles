@@ -24,6 +24,7 @@ ln -sTv $download_dir/config/rofi/ ~/.config/rofi
 ln -sTv $download_dir/config/sxhkd/ ~/.config/sxhkd
 ln -sTv $download_dir/config/zathura/ ~/.config/zathura
 ln -sTv $download_dir/config/newsboat/ ~/.newsboat # Needs further modification
+ln -sfv $download_dir/config/urlview ~/.urlview
 
 # link fonts
 mkdir ~/.fonts
