@@ -398,7 +398,7 @@
     </keybind>
     <keybind key="W-A-o">
       <action name="execute">
-        <command>tabbed -t '#1c2023' -T '#c795ae' -u '#1c2023' -U '#c7ae95' -cr 2 surf -pe x startpage.com</command>
+        <command>tabbed -t '#1c2023' -T '#c795ae' -u '#1c2023' -U '#c7ae95' -cr 2 surf -pe x "https://www.startpage.com/do/mypage.pl?prfe=36c84513558a2d34bf0d89ea505333ad92934a7f254bccb70c1c89932309a9bc559a4c3539b4c3d7f08f24216668b16d"</command>
       </action>
     </keybind>
     <!-- keybindings for finding files -->
