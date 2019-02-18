@@ -8,3 +8,7 @@ export BROWSER="firefox"
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+if [ -f "$HOME/.scripts/dmenu-sudo" ] ; then
+	export SUDO_ASKPASS="$HOME/.scripts/dmenu-sudo"
+fi

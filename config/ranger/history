@@ -1,4 +1,3 @@
-rename Baby.Driver.mkv
 rename Dunkirk
 rename Dunkirk.mp4
 rename Hell.or.High.Water
@@ -48,3 +47,4 @@ bulkrename
 mkdir F
 mkdir M1
 mkdir M2
+shell play-series s01e11
