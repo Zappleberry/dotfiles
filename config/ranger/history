@@ -1,8 +1,3 @@
-rename Dunkirk
-rename Dunkirk.mp4
-rename Hell.or.High.Water
-rename Hell.or.High.Water.mkv
-rename Hell.or.High.Water.English(SDH).srt
 rename Hell.or.High.Water.English.srt
 rename Hell.or.High.Water.Spanish.srt
 rename Fundamentals.of.Microelectronics-Behzad.Razavi.pdf
@@ -48,3 +43,8 @@ mkdir F
 mkdir M1
 mkdir M2
 shell play-series s01e11
+rename Part1-CircuitB.png
+rename Part3-Circuit.png
+rename Part3-Waveform.png
+open_with 
+open_with feh

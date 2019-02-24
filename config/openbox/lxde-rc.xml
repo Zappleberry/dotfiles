@@ -312,7 +312,7 @@
       </action>
     </keybind>
     <keybind key="W-d">
-      <action name="ToggleShowDesktop"/>
+      <action name="Iconify"/>
     </keybind>
     <keybind key="W-f">
       <action name="ToggleMaximize"/>
@@ -371,7 +371,7 @@
         <command>i3lock -c 1C2023</command>
       </action>
     </keybind>
-    <keybind key="W-t">
+    <keybind key="W-space">
       <action name="Execute">
         <command>urxvt -icon /usr/share/icons/HighContrast/32x32/apps/utilities-terminal.png</command>
       </action>
