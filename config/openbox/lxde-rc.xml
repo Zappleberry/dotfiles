@@ -368,7 +368,7 @@
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-        <command>i3lock -c 1C2023</command>
+        <command>i3lock -i ~/.lock.png</command>
       </action>
     </keybind>
     <keybind key="W-space">

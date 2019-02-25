@@ -1,14 +1,3 @@
-rename Hell.or.High.Water.English.srt
-rename Hell.or.High.Water.Spanish.srt
-rename Fundamentals.of.Microelectronics-Behzad.Razavi.pdf
-cd /media/
-cd /media/zach/A93B-5575
-cd /media/zach/Drive/
-shell touch EEC110A.2019W.OrCAD.HW01..pdf
-shell touch EEC110A.2019W.OrCAD.HW01.Submission.tex
-mkdir img
-tab_new /media/zach
-shell convert Lab1-Part1-Diagram.png -negate Lab1-Part3-Waveform_Inv.png
 shell convert Lab1-Part3-Waveform.png -negate Lab1-Part3-Waveform_Inv.png
 shell convert Lab1-Part1-Diagram.png -fill red -opaque "#FF00FF" result.png
 shell convert Lab1-Part3-Waveform.png -fill red -opaque "#FF00FF" result.png
@@ -26,19 +15,15 @@ shell convert Lab1-Part3-Waveform.png -fill '#010101' -opaque '#808080' result.p
 tab_new 
 rename Lab2-Part1-POS-Design-Counter.PNG
 rename Lab2-Part2-POS-Design.PNG
-
 delete 
 shell convert Lab2-Part1-POS-Design.png -negate -o result.png
 shell convert Lab2-Part1-POS-Waveform.png -negate result.png
 rename result.png
-rename 
 rename Lab2-Part1-POS-Waveform.png
 shell convert Lab2-Part1-SOP-Waveform.png -negate Lab2-Part1-SOP-Waveform.png 
 tabnew /media/
 tab_new /media/
 rename EEC110A.2019W.Lecture05.pdf
-delete
-bulkrename 
 mkdir F
 mkdir M1
 mkdir M2
@@ -46,5 +31,20 @@ shell play-series s01e11
 rename Part1-CircuitB.png
 rename Part3-Circuit.png
 rename Part3-Waveform.png
-open_with 
 open_with feh
+open_with 
+mark *.ppt*
+
+select_file *.ppt
+mark *.ppt
+mark_files *.ppt
+rename Lecture.P1.2019-01-28.pdf
+!echo $(pwd) | xclip -i
+shell echo $(pwd) | xclip -i
+rename Lecture.P1.2019-01-09.pdf
+rename Lecture.P1.2019-01-07.pdf
+bulkrename 
+shell 
+rename 
+shell convert Early_Morning_Wheat_Grove.jpg .lock.png
+delete
