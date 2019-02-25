@@ -79,7 +79,7 @@ shrink = no
 # The transparency of the window.  Range: [0; 100].
 # This option will only work if a compositing windowmanager is
 # present (e.g. xcompmgr, compiz, etc.).
-transparency = 5
+transparency = 25
 
 # Don't remove messages, if the user is idle (no mouse or keyboard input)
 # for longer than idle_threshold seconds.
@@ -166,7 +166,7 @@ frame_color = "#C7CCD1"
 # Xev might be helpful to find names for keys.
 
 # Close notification.
-close = mod4+space
+close = mod4+ctrl+space
 
 # Close all notifications.
 close_all = mod4+shift+space
