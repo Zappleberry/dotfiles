@@ -41,3 +41,5 @@ color info                                                  cyan      default
 color article                                               default   default
 color listnormal_unread                                     green     default
 color listfocus_unread                                      red       default bold
+
+external-url-viewer "urlview"
