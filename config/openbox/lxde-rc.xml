@@ -123,15 +123,16 @@
          🞅🞆🞇🞈🞉🞊🞋
          🞤🞽🞷🞫
         -->
-    <number>6</number>
+    <number>7</number>
     <firstdesk>1</firstdesk>
     <names>
-      <name>🞛🞜🞜🞜🞜🞜</name>
-      <name>🞜🞛🞜🞜🞜🞜</name>
-      <name>🞜🞜🞛🞜🞜🞜</name>
-      <name>🞜🞜🞜🞛🞜🞜</name>
-      <name>🞜🞜🞜🞜🞛🞜</name>
-      <name>🞜🞜🞜🞜🞜🞛</name>
+      <name>🞛🞜🞜🞜🞜🞜🞜</name>
+      <name>🞜🞛🞜🞜🞜🞜🞜</name>
+      <name>🞜🞜🞛🞜🞜🞜🞜</name>
+      <name>🞜🞜🞜🞛🞜🞜🞜</name>
+      <name>🞜🞜🞜🞜🞛🞜🞜</name>
+      <name>🞜🞜🞜🞜🞜🞛🞜</name>
+	 <name>🞜🞜🞜🞜🞜🞜🞛</name>
     </names>
     <popupTime>0</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
