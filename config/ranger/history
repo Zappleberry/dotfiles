@@ -1,11 +1,3 @@
-shell convert Lab1-Part3-Waveform.png -fill "#F00000" -opaque "#FF00FF" result.png
-shell convert Lab1-Part3-Waveform.png -fill "#900000" -opaque "#FF00FF" result.png
-shell convert Lab1-Part3-Waveform.png -fill "#B00000" -opaque "#FF00FF" result.png
-shell convert Lab1-Part3-Waveform.png -fill "#D00000" -opaque "#FF00FF" result.png
-shell convert Lab1-Part3-Waveform.png -fill "#D01010" -opaque "#FF00FF" result.png
-rename Lab1-Part3-Waveform.png
-shell convert Lab1-Part3-Waveform.png -fill white -opaque '#808080' result.png
-shell convert Lab1-Part3-Waveform.png -fill '#010101' -opaque '#808080' result.png
 tab_new 
 rename Lab2-Part1-POS-Design-Counter.PNG
 rename Lab2-Part2-POS-Design.PNG
@@ -41,10 +33,18 @@ shell
 shell convert Early_Morning_Wheat_Grove.jpg .lock.png
 open_with un
 shell unzip Notes_export.zip
-delete
-rename 
-bulkrename 
 rename Reading.M3.Reading.Homer-Odyssey-Telemachus_and_Athena.pdf
 rename Reading.M2.Reading.Publius_Vergilius_Maro-Aeneid-Heracles_and_Cacus.pdf
 rename Reading.M3.Reading.Homer-Odyssey-Underworld.pdf
 rename Reading.M3.Reading.Homer-Odyssey-Odysseus_Return.pdf
+shell libreoffice --headless --invisible --convert-to pdf *.pptx
+find jjj
+mkdir img
+rename EEC018.2019W.Lab5.pdf
+shell lpr EEC018.2019W.Lab5.Report.pdf -o outputorder=reverse
+find 
+rename 
+rename EEC110A.2019W.Lecture.R0.CE&CB_Design_Examples.pdf
+shell unzip Lecture_Notes_export.zip
+delete
+bulkrename 
