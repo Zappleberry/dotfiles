@@ -20,7 +20,6 @@ rename Part3-Waveform.png
 open_with feh
 open_with 
 mark *.ppt*
-
 select_file *.ppt
 mark *.ppt
 mark_files *.ppt
@@ -48,3 +47,4 @@ rename EEC110A.2019W.Lecture.R0.CE&CB_Design_Examples.pdf
 shell unzip Lecture_Notes_export.zip
 delete
 bulkrename 
+

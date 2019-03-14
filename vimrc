@@ -15,3 +15,8 @@ let mapleader = " "
 " Make window split emacs-like
 
 	set splitbelow splitright
+
+" Common keymaps
+
+	map <leader>fs :w<CR>
+	map <leader>p :read !xclip -o<CR>
