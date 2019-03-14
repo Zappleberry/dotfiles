@@ -350,10 +350,10 @@
     </keybind>
     -->
     <keybind key="W-j">
-      <action name="NextWindow"/>
+      <action name="NextWindow"><dialog>no</dialog></action>
     </keybind>
     <keybind key="W-k">
-      <action name="PreviousWindow"/>
+      <action name="PreviousWindow"><dialog>no</dialog></action>
     </keybind>
     <keybind key="C-A-Tab">
       <action name="NextWindow">
