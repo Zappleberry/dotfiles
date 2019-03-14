@@ -387,6 +387,11 @@
         <command>emacs</command>
       </action>
     </keybind>
+    <keybind key="W-A-t">
+    	<action name="execute">
+		<command>keepassxc</command>
+	</action>
+    </keybind>
     <keybind key="W-A-i">
       <action name="execute">
         <command>firefox</command>
