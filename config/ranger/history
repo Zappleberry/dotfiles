@@ -1,21 +1,3 @@
-tab_new 
-rename Lab2-Part1-POS-Design-Counter.PNG
-rename Lab2-Part2-POS-Design.PNG
-delete 
-shell convert Lab2-Part1-POS-Design.png -negate -o result.png
-shell convert Lab2-Part1-POS-Waveform.png -negate result.png
-rename result.png
-rename Lab2-Part1-POS-Waveform.png
-shell convert Lab2-Part1-SOP-Waveform.png -negate Lab2-Part1-SOP-Waveform.png 
-tabnew /media/
-tab_new /media/
-rename EEC110A.2019W.Lecture05.pdf
-mkdir F
-mkdir M1
-mkdir M2
-shell play-series s01e11
-rename Part1-CircuitB.png
-rename Part3-Circuit.png
 rename Part3-Waveform.png
 open_with feh
 open_with 
@@ -38,13 +20,31 @@ rename Reading.M3.Reading.Homer-Odyssey-Underworld.pdf
 rename Reading.M3.Reading.Homer-Odyssey-Odysseus_Return.pdf
 shell libreoffice --headless --invisible --convert-to pdf *.pptx
 find jjj
-mkdir img
 rename EEC018.2019W.Lab5.pdf
 shell lpr EEC018.2019W.Lab5.Report.pdf -o outputorder=reverse
 find 
 rename 
 rename EEC110A.2019W.Lecture.R0.CE&CB_Design_Examples.pdf
 shell unzip Lecture_Notes_export.zip
-delete
-bulkrename 
+rename logic.png
+rename 5bit_register.png
+mkdir Samples
+mkdir E1
+mkdir E2
+mkdir F
 
+rename E1
+rename E2
+bulkrename 
+rename CLA10.Syllabus.pdf
+rename Sections_Covered_from_Textbook.txt
+rename EEC018.2019W.Notes.L16.pdf
+rename EEC018.2019W.Notes.L14.pdf
+rename EEC018.2019W.Notes.L15.pdf
+ljljk
+mkdir img
+shell pwd | xclip -i
+shell unzip E_am_Solutions_export.zip
+shell unzip course_files_export.zip
+shell convert DSB-SC_Mod.png DSB-SC_Mod.jpg
+delete

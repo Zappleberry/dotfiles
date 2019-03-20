@@ -20,3 +20,4 @@ let mapleader = " "
 
 	map <leader>fs :w<CR>
 	map <leader>p :read !xclip -o<CR>
+	map <leader><tab> /<++><CR>4s
