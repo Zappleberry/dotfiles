@@ -19,7 +19,12 @@ ln -sTv $download_dir/config/dunst/ ~/.config/dunst
 ln -sTv $download_dir/config/feh/ ~/.config/feh
 ln -sTv $download_dir/config/neofetch/ ~/.config/neofetch
 ln -sTv $download_dir/config/openbox/ ~/.config/openbox
-ln -sTv $download_dir/config/ranger/ ~/.config/ranger
+mkdir ~/.config/ranger
+ln -sv $download_dir/config/ranger/rc.conf ~/.config/ranger/rc.conf
+ln -sv $download_dir/config/ranger/rifle.conf ~/.config/ranger/rifle.conf
+ln -sv $download_dir/config/ranger/scope.sh ~/.config/ranger/scope.sh
+ln -sv $download_dir/config/ranger/commands.py ~/.config/ranger/commands.py
+ln -sv $download_dir/config/ranger/commands_full.py ~/.config/ranger/commands_full.py
 ln -sTv $download_dir/config/rofi/ ~/.config/rofi
 ln -sTv $download_dir/config/sxhkd/ ~/.config/sxhkd
 ln -sTv $download_dir/config/zathura/ ~/.config/zathura
