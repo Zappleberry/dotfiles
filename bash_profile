@@ -12,3 +12,7 @@ fi
 if [ -f "$HOME/.scripts/dmenu-sudo" ] ; then
 	export SUDO_ASKPASS="$HOME/.scripts/dmenu-sudo"
 fi
+
+if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+  exec startx
+fi

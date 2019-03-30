@@ -1,1 +1,2 @@
+setxkbmap us
 exec startlxde

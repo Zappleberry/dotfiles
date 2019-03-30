@@ -37,7 +37,7 @@
     <primaryMonitor/>
   </placement>
   <theme>
-    <name>Mistral</name>
+    <name>Mistral-Openbox-Theme</name>
     <titleLay/>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -126,13 +126,13 @@
     <number>7</number>
     <firstdesk>1</firstdesk>
     <names>
-      <name>🞛🞜🞜🞜🞜🞜🞜</name>
-      <name>🞜🞛🞜🞜🞜🞜🞜</name>
-      <name>🞜🞜🞛🞜🞜🞜🞜</name>
-      <name>🞜🞜🞜🞛🞜🞜🞜</name>
-      <name>🞜🞜🞜🞜🞛🞜🞜</name>
-      <name>🞜🞜🞜🞜🞜🞛🞜</name>
-	 <name>🞜🞜🞜🞜🞜🞜🞛</name>
+      <name></name>
+      <name></name>
+      <name></name>
+      <name></name>
+      <name></name>
+      <name></name>
+      <name></name>
     </names>
     <popupTime>0</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -350,10 +350,14 @@
     </keybind>
     -->
     <keybind key="W-j">
-      <action name="NextWindow"><dialog>no</dialog></action>
+      <action name="NextWindow">
+        <dialog>no</dialog>
+      </action>
     </keybind>
     <keybind key="W-k">
-      <action name="PreviousWindow"><dialog>no</dialog></action>
+      <action name="PreviousWindow">
+        <dialog>no</dialog>
+      </action>
     </keybind>
     <keybind key="C-A-Tab">
       <action name="NextWindow">
@@ -388,9 +392,9 @@
       </action>
     </keybind>
     <keybind key="W-A-t">
-    	<action name="execute">
-		<command>keepassxc</command>
-	</action>
+      <action name="execute">
+        <command>keepassxc</command>
+      </action>
     </keybind>
     <keybind key="W-A-i">
       <action name="execute">
@@ -493,10 +497,8 @@
         <command>sh ~/.scripts/brightness-down</command>
       </action>
     </keybind>
-    <keybind key="W-XF86MonBrightnessUp">">
-      <action name="Execute">
-	<command>sh ~/.scripts/brightness-check</command>
-      </action>
+    <keybind key="W-XF86MonBrightnessUp">"&gt;
+      <action name="Execute"><command>sh ~/.scripts/brightness-check</command></action>
     </keybind>
   </keyboard>
   <mouse>
@@ -858,9 +860,9 @@
       <maximized>true</maximized>
     </application>
      -->
-	<application name="tabbed">
-		<maximized>true</maximized>
-	</application>
+    <application name="tabbed">
+      <maximized>true</maximized>
+    </application>
     <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.

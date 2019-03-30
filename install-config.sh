@@ -7,7 +7,7 @@ download_dir=$(pwd)
 # linking Xdefaults, Xmodmap, and rofi-themes
 ln -sv $download_dir/Xdefaults ~/.Xdefaults
 ln -sv $download_dir/Xmodmap ~/.Xmodmap
-ln -sv $download_dir/xinitrc ~/.xinitrc
+ln -sfv $download_dir/xinitrc ~/.xinitrc
 ln -sfTv $download_dir/rofi-themes ~/.rofi-themes
 ln -sfv $download_dir/bashrc ~/.bashrc
 ln -sfv $download_dir/vimrc ~/.vimrc
@@ -18,7 +18,7 @@ ln -sfv $download_dir/bash_profile ~/.bash_profile
 ln -sTv $download_dir/config/dunst/ ~/.config/dunst
 ln -sTv $download_dir/config/feh/ ~/.config/feh
 ln -sTv $download_dir/config/neofetch/ ~/.config/neofetch
-ln -sTv $download_dir/config/openbox/ ~/.config/openbox
+ln -sfTv $download_dir/config/openbox/ ~/.config/openbox
 mkdir ~/.config/ranger
 ln -sv $download_dir/config/ranger/rc.conf ~/.config/ranger/rc.conf
 ln -sv $download_dir/config/ranger/rifle.conf ~/.config/ranger/rifle.conf
