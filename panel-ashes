@@ -5,7 +5,7 @@ clock(){
 }
 
 calender(){
-    date +%Y-%m-%d
+    date +%F
 }
 
 battery(){
