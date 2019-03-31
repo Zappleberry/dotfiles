@@ -14,6 +14,6 @@ if [ -f "$HOME/.profile" ] ; then
 fi
 
 # Autostart x on login
-if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+if [[ ! $DISPLAY && $(tty) == /dev/tty1 ]]; then
   exec startx
 fi
