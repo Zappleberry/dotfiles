@@ -27,6 +27,7 @@ ln -sv $download_dir/config/ranger/scope.sh ~/.config/ranger/scope.sh
 ln -sv $download_dir/config/ranger/commands.py ~/.config/ranger/commands.py
 ln -sv $download_dir/config/ranger/commands_full.py ~/.config/ranger/commands_full.py
 ln -sTv $download_dir/config/rofi/ ~/.config/rofi
+ln -sTv $download_dir/config/polybar/ ~/.config/polybar
 ln -sTv $download_dir/config/sxhkd/ ~/.config/sxhkd
 ln -sTv $download_dir/config/zathura/ ~/.config/zathura
 ln -sTv $download_dir/config/newsboat/ ~/.newsboat # Needs further modification
@@ -39,3 +40,7 @@ ln -sTv $download_dir/fonts/misc/ ~/.fonts/misc
 # linking spacemacs
 # This may become a .emacs.d in the future?
 ln -sv $download_dir/spacemacs ~/.spacemacs
+
+# link bar
+#mkdir ~/.bar
+#ln -sfv $download_dir/bar/panel-ashes ~/.bar/panel
