@@ -1,10 +1,5 @@
 #!/bin/bash
 
-export PATH="$(du "$HOME/.scripts" | cut -f2 | grep -iv ".git" | tr '\n' ':' | sed 's/\(.*\)./\1/'):$PATH"
-export EDITOR="vim"
-export BROWSER="firefox"
-export XDG_CONFIG_HOME="$HOME/.config"
-
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
@@ -14,6 +9,11 @@ if [ -f "$HOME/.scripts/dmenu-sudo" ] ; then
 	export SUDO_ASKPASS="$HOME/.scripts/dmenu-sudo"
 fi
 
+if [ -f "$HOME/.profile" ] ; then
+	source ~/.profile
+fi
+
+# Autostart x on login
 if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
   exec startx
 fi
