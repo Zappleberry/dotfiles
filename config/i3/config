@@ -30,10 +30,10 @@ font pango:Hack 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+space exec i3-sensible-terminal
+bindsym $mod+space exec urxvt
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
@@ -48,7 +48,7 @@ bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
 
-## alternatively, you can use the cursor keys:
+## Alternatively, you can use the cursor keys:
 #bindsym $mod+Left focus left
 #bindsym $mod+Down focus down
 #bindsym $mod+Up focus up
@@ -60,7 +60,7 @@ bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+semicolon move right
 
-# alternatively, you can use the cursor keys:
+# Alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -121,8 +121,8 @@ bindsym $mod+Shift+6 move container to workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7
 
 # move between adjacent workspaces
-bindsym $mod+Alt+l workspace next
-bindsym $mod+Alt+h workspace prev
+bindsym $mod+Mod1+l workspace next
+bindsym $mod+Mod1+h workspace prev
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -157,6 +157,19 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+# Autostart
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always MEGAsync
+exec_always dunst
+exec_always xset b off
+exec_always xcompmgr
+exec_always xmodmap ~/.Xmodmap
+
+# Application bindings
+bindsym $mod+x exec i3lock -i ~/.lock.png
+bindsym $mod+Mod1+i exec firefox
+
 
 ## Start i3bar to display a workspace bar (plus the system information i3status
 ## finds out, if available)
