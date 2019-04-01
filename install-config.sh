@@ -29,6 +29,7 @@ ln -sv $download_dir/config/ranger/commands_full.py ~/.config/ranger/commands_fu
 ln -sTv $download_dir/config/rofi/ ~/.config/rofi
 ln -sTv $download_dir/config/polybar/ ~/.config/polybar
 ln -sTv $download_dir/config/sxhkd/ ~/.config/sxhkd
+ln -sTv $download_dir/config/i3/ ~/.config/i3
 ln -sTv $download_dir/config/zathura/ ~/.config/zathura
 ln -sTv $download_dir/config/newsboat/ ~/.newsboat # Needs further modification
 ln -sfv $download_dir/config/urlview ~/.urlview

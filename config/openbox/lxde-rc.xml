@@ -498,10 +498,14 @@
       </action>
     </keybind>
     <keybind key="W-XF86MonBrightnessUp">
-      <action name="Execute"><command>xbacklight -set 100</command></action>
+      <action name="Execute">
+        <command>xbacklight -set 100</command>
+      </action>
     </keybind>
     <keybind key="W-XF86MonBrightnessDown">
-      <action name="Execute"><command>xbacklight -set 0</command></action>
+      <action name="Execute">
+        <command>xbacklight -set 0</command>
+      </action>
     </keybind>
   </keyboard>
   <mouse>
