@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ "$(pgrep openvpn)" ]; then
-    echo "#1"
+    echo "Connected"
 else
-    echo "#2"
+    echo "Disconnected"
 fi
