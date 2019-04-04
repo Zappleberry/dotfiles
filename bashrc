@@ -105,6 +105,9 @@ if [ -f ~/.bash_aliases ]; then
 	~/.bash_aliases
 fi
 
+alias ytvw='youtube-viewer'
+alias ytjb='youtube-viewer -n'
+
 if [ -f ~/.bash_profile ]; then
 	source ~/.bash_profile
 fi
