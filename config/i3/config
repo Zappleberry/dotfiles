@@ -17,6 +17,11 @@ font pango:Hack 8
 
 gaps inner 4
 
+# class			border	backgr	text	indicator	child_border
+client.focused		#95aec7	#1c2023bb	#f3f4f5	#95c7ae	#95aec7
+client.focused_inactive		#95aec7	#1c2023bb	#f3f4f5	#95c7ae	#95aec7
+client.unfocused		#95aec7	#1c2023bb	#f3f4f5	#95c7ae	#95aec7
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -176,6 +181,8 @@ exec_always feh --randomize --bg-fill ~/Pictures/Wallpapers/Cozy/*
 # Application bindings
 bindsym $mod+x exec i3lock -i ~/.lock.png
 bindsym $mod+Mod1+i exec firefox
+bindsym $mod+Mod1+p exec firefox --privatewindow "https://duckduckgo.com"
+bindsym $mod+Mod1+o exec tabbed -t '#1c2023' -T '#c795ae' -u '#1c2023' -U '#c7ae95' -cr 2 surf -pe x "https://duckduckgo.com"
 bindsym $mod+Mod1+e exec sh ~/.scripts/dmenuemoji
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5.00%+
 bindsym XF86AudioLowerVolume exec amixer -q sset Master 5.00%-
