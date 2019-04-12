@@ -107,6 +107,7 @@ fi
 
 alias ytvw='youtube-viewer'
 alias ytjb='youtube-viewer -n'
+alias pdfauto='ls *.tex | entr pdflatex --interaction=nonstopmode'
 
 if [ -f ~/.bash_profile ]; then
 	source ~/.bash_profile

@@ -17,10 +17,10 @@ font pango:Hack 8
 
 gaps inner 4
 
-# class			border	backgr	text	indicator	child_border
-client.focused		#95aec7	#1c2023bb	#f3f4f5	#95c7ae	#95aec7
-client.focused_inactive		#95aec7	#1c2023bb	#f3f4f5	#95c7ae	#95aec7
-client.unfocused		#95aec7	#1c2023bb	#f3f4f5	#95c7ae	#95aec7
+# class					border	backgr	text		indicator	child_border
+client.focused				#95aec7	#1c2023bb	#f3f4f5	#95c7ae	#95aec7
+client.focused_inactive		#95aec7	#1c2023bb	#f3f4f5	#1c2023bb	#1c2023bb
+client.unfocused			#95aec7	#1c2023bb	#f3f4f5	#1c2023bb	#1c2023bb
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -132,8 +132,8 @@ bindsym $mod+Mod1+l workspace next
 bindsym $mod+Mod1+h workspace prev
 
 # move focused container to workspaces
-bindsym $mod+Mod1+Shift+l move container to workspace next
-bindsym $mod+Mod1+Shift+h move container to workspace prev
+bindsym $mod+Mod1+Shift+l move container to workspace next workspace next
+bindsym $mod+Mod1+Shift+h move container to workspace prev workspace prev
 
 # reload the configuration file
 bindsym $mod+F5 reload
@@ -176,7 +176,8 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always pkill megasync; megasync &
 exec_always pkill dunst; dunst &
 exec_always pkill xcompmgr; xcompmgr &
-exec_always feh --randomize --bg-fill ~/Pictures/Wallpapers/Cozy/*
+exec_always feh --randomize --bg-fill ~/Pictures/Wallpapers/Landscapes/*
+exec_always pkill pulseaudio; pulseaudio &
 
 # Application bindings
 bindsym $mod+x exec i3lock -i ~/.lock.png
