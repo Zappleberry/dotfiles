@@ -21,4 +21,11 @@ let mapleader = " "
 	map <leader>fs :w<CR>
 	map <leader>p :read !xclip -o<CR>
 	map <leader><tab> /<++><CR>4s
+
+" Spellcheck keys
+
 	map <leader>ss :setlocal spell! spelllang=en_us<CR>
+	map <leader>sj ]s
+	map <leader>sk [s
+	map <leader>sr z=
+
