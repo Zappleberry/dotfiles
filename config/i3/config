@@ -187,7 +187,7 @@ bindsym $mod+Mod1+o exec tabbed -t '#1c2023' -T '#c795ae' -u '#1c2023' -U '#c7ae
 bindsym $mod+Mod1+e exec sh ~/.scripts/dmenuemoji
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5.00%+
 bindsym XF86AudioLowerVolume exec amixer -q sset Master 5.00%-
-bindsym XF86AudioMute exec amixer -q set Master 1+ toggle
+bindsym XF86AudioMute exec amixer -q set Master 0+ toggle
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5
 bindsym $mod+XF86MonBrightnessUp exec xbacklight -set 100
