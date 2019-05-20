@@ -150,10 +150,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym h resize grow width 10 px or 10 ppt
+        bindsym j resize shrink height 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym l resize shrink width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -163,7 +163,7 @@ mode "resize" {
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
-        bindsym Caps_Lock mode "default"
+        bindsym Caps_lock mode "default"
         bindsym $mod+r mode "default"
 }
 
@@ -182,12 +182,15 @@ exec_always pkill pulseaudio; pulseaudio &
 # Application bindings
 bindsym $mod+x exec i3lock -i ~/.lock.png
 bindsym $mod+Mod1+i exec firefox
-bindsym $mod+Mod1+p exec firefox --privatewindow "https://duckduckgo.com"
+bindsym $mod+Mod1+p exec firefox --private-window "https://duckduckgo.com"
 bindsym $mod+Mod1+o exec tabbed -t '#1c2023' -T '#c795ae' -u '#1c2023' -U '#c7ae95' -cr 2 surf -pe x "https://duckduckgo.com"
 bindsym $mod+Mod1+e exec sh ~/.scripts/dmenuemoji
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5.00%+
 bindsym XF86AudioLowerVolume exec amixer -q sset Master 5.00%-
-bindsym XF86AudioMute exec amixer -q set Master 0+ toggle
+# amixer -q set Master Playback Switch toggle
+# amixer -q set Master 0+ toggle
+# amixer -q -D pulse sset Master toggle
+bindsym XF86AudioMute exec amixer -q set Master Playback Switch toggle
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5
 bindsym $mod+XF86MonBrightnessUp exec xbacklight -set 100
