@@ -196,6 +196,10 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5
 bindsym $mod+XF86MonBrightnessUp exec xbacklight -set 100
 bindsym $mod+XF86MonBrightnessDown exec xbacklight -set 5
 bindsym $mod+Mod1+m exec urxvt -e neomutt
+bindsym $mod+Mod1+bracketleft exec landscape-normal
+bindsym $mod+Mod1+bracketright exec landscape-inverted
+bindsym $mod+Mod1+Shift+braceleft exec portrait-left
+bindsym $mod+Mod1+Shift+braceright exec portrait-right
 
 new_window pixel 2
 
