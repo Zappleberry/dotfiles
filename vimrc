@@ -19,7 +19,9 @@ let mapleader = " "
 " Common keymaps
 
 	map <leader>fs :w<CR>
+	map <leader>fq :wq<CR>
 	map <leader>p :read !xclip -o<CR>
+	map <leader>y :<C-u>exec "!echo \"" . GetVisualSelection() . "\" \| xclip -i -selection clipboard"<CR><CR>
 	map <leader><tab> /<++><CR>4s
 
 " Spellcheck keys
@@ -29,3 +31,14 @@ let mapleader = " "
 	map <leader>sk [s
 	map <leader>sr z=
 
+" Get Visual Selection command
+
+
+	function! GetVisualSelection()
+		let [lnum1, col1] = getpos("'<")[1:2]
+		let [lnum2, col2] = getpos("'>")[1:2]
+		let lines = getline(lnum1, lnum2)
+		let lines[-1] = lines[-1][:col2 - (&selection == 'inclusive' ? 1 : 2)]
+		let lines[0] = lines[0][col1 - 1:]
+		return join(lines, "\n")
+	endfunction
