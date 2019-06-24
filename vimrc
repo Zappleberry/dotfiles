@@ -20,7 +20,7 @@ let mapleader = " "
 
 	map <leader>fs :w<CR>
 	map <leader>fq :wq<CR>
-	map <leader>p :read !xclip -o<CR>
+	map <leader>p :read !xclip -o -selection clipboard<CR>
 	map <leader>y :<C-u>exec "!echo \"" . GetVisualSelection() . "\" \| xclip -i -selection clipboard"<CR><CR>
 	map <leader><tab> /<++><CR>4s
 
