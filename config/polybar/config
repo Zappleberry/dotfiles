@@ -233,7 +233,7 @@ interval = 5
 [module/vpn-openvpn-nmcli]
 type = custom/script
 exec = ~/.config/polybar/scripts/vpn-openvpn-nmcli.sh
-interval = 5
+interval = 3.0
 format-underline = #ae95c7
 
 [module/wlan]
@@ -246,11 +246,11 @@ format-connected-underline = #ae95c7
 ;format-prefix = " "
 label-connected = %essid%
 
-format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
+;format-disconnected = 
+format-disconnected = <label-disconnected>
+format-disconnected-underline = ${self.format-connected-underline}
+label-disconnected = %ifname% disconnected
+label-disconnected-foreground = ${self.format-connected-underline}
 
 ramp-signal-0 = 
 ramp-signal-1 = 
@@ -395,7 +395,7 @@ animation-discharging-framerate = 750
 
 [module/temperature]
 type = internal/temperature
-thermal-zone = 3
+thermal-zone = 1
 warn-temperature = 60
 
 format = <ramp> <label>
