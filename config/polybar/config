@@ -57,7 +57,7 @@ font-2 = "Font Awesome 5 Free:style=Solid:size=7;0"
 
 modules-left = i3
 modules-center = mpd date
-modules-right = filesystem volume vpn-openvpn-nmcli wlan eth battery memory cpu temperature
+modules-right = filesystem volume transmission vpn-openvpn-nmcli wlan eth battery memory cpu temperature
 
 tray-position = right
 tray-padding = 2
@@ -235,6 +235,13 @@ type = custom/script
 exec = ~/.config/polybar/scripts/vpn-openvpn-nmcli.sh
 interval = 3.0
 format-underline = #ae95c7
+
+[module/transmission]
+type = custom/script
+exec = ~/.config/polybar/scripts/transmission.sh
+interval = 3.0
+format-underline = #aec795
+click-left = urxvt -e "transmission-remote-cli"
 
 [module/wlan]
 type = internal/network
