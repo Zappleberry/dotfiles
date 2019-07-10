@@ -2,7 +2,7 @@
 
 if [ -z "$(pgrep -x transmission-da)" ]
 then
-	echo "td not running"
+	echo " down"
 else
 	transmission-remote -l | grep % | sed "
 	s/.*Stopped.*/A/g;
