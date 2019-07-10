@@ -2,7 +2,7 @@
 
 if [ -z "$(pgrep -x transmission-da)" ]
 then
-	echo " down"
+	echo "%{F#aec795}%{F-} down"
 else
 	transmission-remote -l | grep % | sed "
 	s/.*Stopped.*/A/g;
