@@ -201,6 +201,8 @@ bindsym $mod+Mod1+bracketleft exec landscape-normal
 bindsym $mod+Mod1+bracketright exec landscape-inverted
 bindsym $mod+Mod1+Shift+braceleft exec portrait-left
 bindsym $mod+Mod1+Shift+braceright exec portrait-right
+bindsym $mod+Mod1+t exec td-toggle
+bindsym $mod+Mod1+v exec nm-vpn
 
 new_window pixel 2
 
