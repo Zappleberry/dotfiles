@@ -106,7 +106,7 @@ set $ws2 ""
 set $ws3 ""
 set $ws4 ""
 set $ws5 ""
-set $ws6 ""
+set $ws6 ""
 set $ws7 ""
 
 # switch to workspace
@@ -203,6 +203,7 @@ bindsym $mod+Mod1+Shift+braceleft exec portrait-left
 bindsym $mod+Mod1+Shift+braceright exec portrait-right
 bindsym $mod+Mod1+t exec td-toggle
 bindsym $mod+Mod1+v exec nm-vpn
+bindsym $mod+Mod1+d exec displayselect
 
 new_window pixel 2
 
