@@ -218,7 +218,7 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = ${self.format-underline}
 format-underline = #c795ae
-label = %percentage_used%% %percentage_swap_used%%
+label = %percentage_used:2%% %percentage_swap_used:2%%
 
 [module/vpn-openvpn-isrunning]
 type = custom/script
@@ -361,9 +361,11 @@ full-at = 96
 
 format-charging = <animation-charging> <label-charging>
 format-charging-underline = #95c7ae
+label-charging = %percentage:3%%
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
+label-discharging = %percentage:3%%
 
 format-full-prefix = " "
 format-full-prefix-foreground = ${self.format-charging-underline}
@@ -447,7 +449,7 @@ type=internal/alsa
 format-volume = <ramp-volume> <label-volume>%
 format-headphones = <ramp-headphones> <label-volume>%
 format-muted = <label-muted>
-label-volume = %percentage%
+label-volume = %percentage:3%
 label-muted = " Mute"
 label-muted-foreground = #c7ccd1
 format-volume-padding = 1
