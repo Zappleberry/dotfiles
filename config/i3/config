@@ -205,6 +205,7 @@ bindsym $mod+Mod1+Shift+braceright exec portrait-right
 bindsym $mod+Mod1+t exec td-toggle
 bindsym $mod+Mod1+v exec nm-vpn
 bindsym $mod+Mod1+d exec displayselect
+bindsym $mod+Mod1+f exec dmenu-mount
 
 new_window pixel 2
 
