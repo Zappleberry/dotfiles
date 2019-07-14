@@ -194,7 +194,7 @@ bindsym XF86AudioLowerVolume exec amixer -q sset Master 5.00%-
 bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5
-bindsym XF86Tools exec kodi-start
+bindsym XF86Tools workspace $ws7 exec kodi-start
 bindsym $mod+XF86MonBrightnessUp exec xbacklight -set 100
 bindsym $mod+XF86MonBrightnessDown exec xbacklight -set 5
 bindsym $mod+Mod1+m exec urxvt -e neomutt
