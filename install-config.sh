@@ -14,6 +14,7 @@ ln -sfv $download_dir/vimrc ~/.vimrc
 ln -sfv $download_dir/octaverc ~/.octaverc
 ln -sfv $download_dir/bash_profile ~/.bash_profile
 ln -sfv $download_dir/profile ~/.profile
+ln -sfv $download_dir/emoji ~/.emoji
 
 # linking configuration files.
 ln -sTv $download_dir/config/dunst/ ~/.config/dunst

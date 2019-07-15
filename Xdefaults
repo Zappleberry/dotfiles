@@ -38,7 +38,7 @@
 URxvt.intensityStyles:	false
 URxvt*background:       [75]#1c2023
 URxvt*depth:		32
-URxvt*font: 		xft:hack:size=9,xft:Font Awesome 5 Free:style=Regular:size=9
+URxvt*font: 		xft:hack:size=9,xft:Noto Emoji:size=9
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#eead0e
 
@@ -50,7 +50,7 @@ URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
 URxvt.colorUL:		#4682B4
 !! url-select
 URxvt.keysym.M-u:	perl:url-select:select_next
-URxvt.url-select.launcher: webview
+URxvt.url-select.launcher: urlhandler
 URxvt.url-select.underline: true
 !! keyboard-select:
 URxvt.keysym.M-Escape: perl:keyboard-select:activate
@@ -58,7 +58,7 @@ URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.resize-font.smaller:	C-Down
 URxvt.resize-font.bigger:	C-Up
 !! Matcher
-URxvt.url-launcher:	webview
+URxvt.url-launcher:	urlview
 URxvt.matcher.button:	1
 
 
