@@ -179,33 +179,35 @@ exec_always pkill xcompmgr; xcompmgr &
 exec_always feh --randomize --bg-fill ~/Pictures/Wallpapers/Landscapes/*
 exec_always pulseaudio --start
 
-# Application bindings
+# Utility bindings
 bindsym $mod+x exec i3lock -i ~/.lock.png
 bindsym $mod+Mod1+F9 exec feh --randomize --bg-fill ~/Pictures/Wallpapers/Landscapes/*
-bindsym $mod+Mod1+i exec firefox
-bindsym $mod+Mod1+p exec firefox --private-window "https://duckduckgo.com"
-bindsym $mod+Mod1+o exec tabbed -t '#1c2023' -T '#c795ae' -u '#1c2023' -U '#c7ae95' -cr 2 surf -pe x "https://duckduckgo.com"
-bindsym $mod+Mod1+e exec sh ~/.scripts/dmenuemoji
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5.00%+
 bindsym XF86AudioLowerVolume exec amixer -q sset Master 5.00%-
 # amixer -q set Master Playback Switch toggle
 # amixer -q set Master 0+ toggle
 # amixer -q -D pulse sset Master toggle
-bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle
+bindsym XF86AudioMute exec amixer -q sset Master toggle
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5
-bindsym XF86Tools workspace $ws7 exec kodi-start
 bindsym $mod+XF86MonBrightnessUp exec xbacklight -set 100
 bindsym $mod+XF86MonBrightnessDown exec xbacklight -set 5
-bindsym $mod+Mod1+m exec urxvt -e neomutt
 bindsym $mod+Mod1+bracketleft exec landscape-normal
 bindsym $mod+Mod1+bracketright exec landscape-inverted
 bindsym $mod+Mod1+Shift+braceleft exec portrait-left
 bindsym $mod+Mod1+Shift+braceright exec portrait-right
-bindsym $mod+Mod1+t exec td-toggle
-bindsym $mod+Mod1+v exec nm-vpn
 bindsym $mod+Mod1+d exec displayselect
 bindsym $mod+Mod1+f exec dmenu-mount
+
+# Application bindings
+bindsym $mod+Mod1+i exec firefox
+bindsym $mod+Mod1+p exec firefox --private-window "https://duckduckgo.com"
+bindsym $mod+Mod1+o exec tabbed -t '#1c2023' -T '#c795ae' -u '#1c2023' -U '#c7ae95' -cr 2 surf -pe x "https://duckduckgo.com"
+bindsym $mod+Mod1+e exec sh ~/.scripts/dmenuemoji
+bindsym XF86Tools workspace $ws7 exec kodi-start
+bindsym $mod+Mod1+m exec urxvt -e neomutt
+bindsym $mod+Mod1+t exec td-toggle
+bindsym $mod+Mod1+v exec nm-vpn
 
 new_window pixel 2
 

@@ -38,7 +38,7 @@
 URxvt.intensityStyles:	false
 URxvt*background:       [75]#1c2023
 URxvt*depth:		32
-URxvt*font: 		xft:hack:size=9,xft:Noto Emoji:size=9
+URxvt*font: 		xft:hack:size=9, xft:Noto Color Emoji
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#eead0e
 
@@ -50,7 +50,7 @@ URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
 URxvt.colorUL:		#4682B4
 !! url-select
 URxvt.keysym.M-u:	perl:url-select:select_next
-URxvt.url-select.launcher: urlhandler
+URxvt.url-select.launcher: urlview
 URxvt.url-select.underline: true
 !! keyboard-select:
 URxvt.keysym.M-Escape: perl:keyboard-select:activate
@@ -58,7 +58,7 @@ URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.resize-font.smaller:	C-Down
 URxvt.resize-font.bigger:	C-Up
 !! Matcher
-URxvt.url-launcher:	urlview
+URxvt.urlLauncher:	firefox
 URxvt.matcher.button:	1
-
-
+URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&amp;@#-]*[\\w/-]
+URxvt.matcher.rend.0: fg16 RS_Uline
