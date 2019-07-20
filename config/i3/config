@@ -207,7 +207,7 @@ bindsym $mod+Mod1+e exec sh ~/.scripts/dmenuemoji
 bindsym XF86Tools workspace $ws7 exec kodi-start
 bindsym $mod+Mod1+m exec urxvt -e neomutt
 bindsym $mod+Mod1+t exec td-toggle
-bindsym $mod+Mod1+v exec nm-vpn
+bindsym $mod+Mod1+n exec nm-dmenu
 
 new_window pixel 2
 
