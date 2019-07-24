@@ -57,7 +57,7 @@ font-2 = "Font Awesome 5 Free:style=Solid:size=7;0"
 
 modules-left = i3
 modules-center = mpd date
-modules-right = filesystem volume transmission vpn-openvpn-nmcli wlan eth battery memory cpu temperature
+modules-right = filesystem volume transmission vpn-wireguard wlan eth battery memory cpu temperature
 
 tray-position = right
 tray-padding = 2
@@ -219,6 +219,12 @@ format-prefix = " "
 format-prefix-foreground = ${self.format-underline}
 format-underline = #c795ae
 label = %percentage_used:2%% %percentage_swap_used:2%%
+
+[module/vpn-wireguard]
+type = custom/script
+exec = ~/.config/polybar/scripts/vpn-wireguard.sh
+interval = 3.0
+format-underline = #ae95c7
 
 [module/vpn-openvpn-isrunning]
 type = custom/script

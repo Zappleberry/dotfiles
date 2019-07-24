@@ -203,11 +203,11 @@ bindsym $mod+Mod1+f exec dmenu-mount
 bindsym $mod+Mod1+i exec firefox
 bindsym $mod+Mod1+p exec firefox --private-window "https://duckduckgo.com"
 bindsym $mod+Mod1+o exec tabbed -t '#1c2023' -T '#c795ae' -u '#1c2023' -U '#c7ae95' -cr 2 surf -pe x "https://duckduckgo.com"
-bindsym $mod+Mod1+e exec sh ~/.scripts/dmenuemoji
+bindsym $mod+Mod1+e exec sh ~/.scripts/dmenu-emoji
 bindsym XF86Tools workspace $ws7 exec kodi-start
 bindsym $mod+Mod1+m exec urxvt -e neomutt
 bindsym $mod+Mod1+t exec td-toggle
-bindsym $mod+Mod1+n exec nm-dmenu
+bindsym $mod+Mod1+n exec dmenu-nm
 
 new_window pixel 2
 
