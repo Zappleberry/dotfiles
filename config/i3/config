@@ -178,6 +178,7 @@ exec_always pkill dunst; dunst &
 exec_always pkill xcompmgr; xcompmgr &
 exec_always feh --randomize --bg-fill ~/Pictures/Wallpapers/Landscapes/*
 exec_always pulseaudio --start
+exec_always calcurse --daemon
 
 # Utility bindings
 bindsym $mod+x exec i3lock -i ~/.lock.png
@@ -208,6 +209,7 @@ bindsym XF86Tools workspace $ws7 exec kodi-start
 bindsym $mod+Mod1+m exec urxvt -e neomutt
 bindsym $mod+Mod1+t exec td-toggle
 bindsym $mod+Mod1+n exec dmenu-nm
+bindsym $mod+Mod1+c exec urxvt -e calcurse -q
 
 new_window pixel 2
 
