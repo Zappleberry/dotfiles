@@ -16,6 +16,7 @@ set $mod Mod4
 font pango:Hack 8
 
 gaps inner 4
+#gaps outer 2
 
 # class					border	backgr	text		indicator	child_border
 client.focused				#95aec7	#1c2023bb	#f3f4f5	#95c7ae	#95aec7

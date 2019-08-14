@@ -42,25 +42,28 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 0
+;border-size = 0
+border-right = 4
+border-left = ${bar/ashes.border-right}
+;border-top = 4
 border-color = #00000000
 
 padding-left = 0
 padding-right = 2
 
 module-margin-left = 1
-module-margin-right = 2
+module-margin-right = 1
 
 font-0 = hack:fontformat=truetype:size=9:antialias=true;1
 font-1 = "Font Awesome 5 Free:style=Regular:size=7;0"
 font-2 = "Font Awesome 5 Free:style=Solid:size=7;0"
 
 modules-left = i3
-modules-center = mpd date
-modules-right = filesystem volume transmission vpn-wireguard wlan eth battery memory cpu temperature
+modules-center = date mpd
+modules-right = volume transmission vpn-wireguard wlan eth battery memory cpu temperature
 
 tray-position = right
-tray-padding = 2
+tray-padding = 1
 tray-background = ${colors.background}
 
 ;wm-restack = bspwm
