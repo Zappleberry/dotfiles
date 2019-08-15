@@ -206,9 +206,10 @@ bindsym $mod+Mod1+d exec displayselect
 bindsym $mod+Mod1+f exec dmenu-mount
 
 # Application bindings
-bindsym $mod+Mod1+i exec firefox
-bindsym $mod+Mod1+p exec firefox --private-window "https://duckduckgo.com"
-bindsym $mod+Mod1+o exec tabbed -t '#1c2023' -T '#c795ae' -u '#1c2023' -U '#c7ae95' -cr 2 surf -pe x "https://duckduckgo.com"
+#bindsym $mod+Mod1+i exec firefox
+#bindsym $mod+Mod1+p exec firefox --private-window "https://duckduckgo.com"
+#bindsym $mod+Mod1+o exec tabbed -t '#1c2023' -T '#c795ae' -u '#1c2023' -U '#c7ae95' -cr 2 surf -pe x "https://duckduckgo.com"
+bindsym $mod+Mod1+i exec dmenu-browser
 bindsym $mod+Mod1+e exec dmenu-unicode
 bindsym XF86Tools workspace $ws7 exec kodi-start
 bindsym $mod+Mod1+m exec urxvt -e neomutt
