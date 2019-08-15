@@ -255,6 +255,12 @@ interval = 3.0
 format-underline = #aec795
 click-left = urxvt -e "transmission-remote-cli"
 
+[module/offlineimap]
+type = custom/script
+exec = ~/.config/polybar/scripts/offimap.sh
+interval = 1.0
+format-underline = #aec795
+
 [module/wlan]
 type = internal/network
 interface = wlp1s0
