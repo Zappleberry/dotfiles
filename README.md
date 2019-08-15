@@ -67,3 +67,5 @@ Just remaps caps_lock and escape.
 Contains siji bitmap font. I know that it can be enabled by setting:
 `/etc/fonts/conf.d/70-no-bitmaps.conf` to `/etc/fonts/conf.d/70-no-bitmaps.conf.old` (disabling the file)
 However, when I do this, it just causes some fonts to loose their aliasing. I'm not sure what the solution is, but I am looking into it.
+
+Needs to be updated. Check individual files to understand whats going on
