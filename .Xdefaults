@@ -38,7 +38,7 @@
 URxvt.intensityStyles:	false
 URxvt*background:       [75]#1c2023
 URxvt*depth:		32
-URxvt*font: 		xft:hack:size=9, xft:Noto Color Emoji
+URxvt*font: 		xft:hack:size=9
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#eead0e
 
