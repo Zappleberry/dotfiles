@@ -1,4 +1,0 @@
-* TODO Fix issue where checkboxes are blank because forground = background somewhere
-
-  - Main issue is firefox
-  - GTK3?
