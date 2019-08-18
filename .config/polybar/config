@@ -434,7 +434,8 @@ label = %temperature-c%
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
-ramp-0 = 
+ramp-font = 3
+ramp-0 = ""
 ramp-foreground = ${self.format-underline}
 
 ;[module/powermenu]
