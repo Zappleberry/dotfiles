@@ -104,10 +104,10 @@ bindsym $mod+a focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 ""
 set $ws2 ""
-set $ws3 ""
-set $ws4 ""
+set $ws3 ""
+set $ws4 ""
 set $ws5 ""
-set $ws6 ""
+set $ws6 ""
 set $ws7 ""
 set $ws8 ""
 # ws8 backup 
