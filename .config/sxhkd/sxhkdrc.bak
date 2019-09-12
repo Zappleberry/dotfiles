@@ -1,0 +1,14 @@
+super + x
+      i3lock -i ~/.lock.png
+
+super + space
+      urxvt
+
+super + c
+      urxvt -e calcurse -q
+
+XF86Audio{Raise,Lower}Volume
+      amixer -q sset Master 5%{+,-}
+
+XF86AudioMute
+      amixer -q set Master toggle
