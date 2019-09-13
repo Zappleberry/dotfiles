@@ -2,20 +2,6 @@
 
 sxhkd &
 
-xmodmap ~/.Xmodmap
-xset b off
-
-$HOME/.config/polybar/launch.sh &
-
-pkill megasync; megasync &
-pkill dunst; dunst &
-pkill xcompmgr; xcompmgr &
-
-pulseaudio --start
-calcurse --daemon
-
-feh --randomize --bg-fill ~/Pictures/Wallpapers/Landscapes/*
-
 bspc monitor -d '' '' '' '' '' '' '' ''
 
 bspc config border_width         2
@@ -32,3 +18,17 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a neomutt desktop='^4'
+
+$HOME/.config/polybar/launch.sh &
+
+xmodmap ~/.Xmodmap
+xset b off
+
+pkill megasync; megasync &
+pkill dunst; dunst &
+pkill xcompmgr; xcompmgr &
+
+pulseaudio --start
+calcurse --daemon
+
+feh --randomize --bg-fill ~/Pictures/Wallpapers/Landscapes/*
