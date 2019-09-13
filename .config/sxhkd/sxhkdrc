@@ -100,8 +100,12 @@ super + {p,b,comma,period}
 super + {_,shift + }c
 	bspc node -f {next,prev}.local
 
-# focus the next/previous desktop in the current monitor
+# focus the next/previous desktop in the current monitor that is occupied
 super + bracket{left,right}
+	bspc desktop -f {prev,next}.occupied.local
+
+# focus the next/previous desktop in the current monitor
+super + brace{left,right}
 	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop

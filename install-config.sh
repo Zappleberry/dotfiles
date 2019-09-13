@@ -31,7 +31,8 @@ ln -sfv $download_dir/.config/ranger/commands_full.py ~/.config/ranger/commands_
 ln -sfTv $download_dir/.config/rofi/ ~/.config/rofi
 ln -sfTv $download_dir/.config/polybar/ ~/.config/polybar
 ln -sfTv $download_dir/.config/sxhkd/ ~/.config/sxhkd
-ln -sfTv $download_dir/.config/i3/ ~/.config/i3
+# uncomment this line to use i3 config instead of bspwm
+#ln -sfTv $download_dir/.config/i3/ ~/.config/i3
 ln -sfTv $download_dir/.config/bspwm/ ~/.config/bspwm
 ln -sfTv $download_dir/.config/zathura/ ~/.config/zathura
 ln -sfTv $download_dir/.config/newsboat/ ~/.newsboat # Needs further modification
