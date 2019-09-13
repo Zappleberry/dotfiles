@@ -45,9 +45,9 @@ line-color = #f00
 overline-size = 2
 
 ;border-size = 0
-border-right = 4
-border-left = ${bar/ashes.border-right}
-border-bottom = 2
+border-right-size = 4
+border-left-size = ${bar/ashes.border-right-size}
+border-bottom-size = 2
 ;border-top = 4
 border-right-color = #00000000
 border-left-color = ${bar/ashes.border-right-color}
@@ -75,7 +75,7 @@ tray-background = ${colors.background}
 ;wm-restack = bspwm
 ;wm-restack = i3
 
-;override-redirect = true
+;override-redirect = false
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev
