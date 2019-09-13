@@ -47,8 +47,11 @@ overline-size = 2
 ;border-size = 0
 border-right = 4
 border-left = ${bar/ashes.border-right}
+border-bottom = 2
 ;border-top = 4
-border-color = #00000000
+border-right-color = #00000000
+border-left-color = ${bar/ashes.border-right-color}
+border-bottom-color = ${colors.background-alt}
 
 padding-left = 0
 padding-right = 2

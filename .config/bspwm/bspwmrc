@@ -4,9 +4,11 @@ sxhkd &
 
 bspc monitor -d '' '' '' '' '' '' '' ''
 
+$HOME/.config/polybar/launch.sh &
+
 bspc config border_width         2
 bspc config window_gap           4
-bspc config top_padding         17
+bspc config top_padding         19
 bspc config bottom_padding       0
 bspc config right_padding        0
 bspc config left_padding         0
@@ -19,8 +21,6 @@ bspc config gapless_monocle      true
 
 bspc rule -a neomutt desktop='^4'
 
-$HOME/.config/polybar/launch.sh &
-
 xmodmap ~/.Xmodmap
 xset b off
 
@@ -32,3 +32,5 @@ pulseaudio --start
 calcurse --daemon
 
 feh --randomize --bg-fill ~/Pictures/Wallpapers/Landscapes/*
+
+bspc config top_padding         19
