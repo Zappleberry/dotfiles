@@ -21,7 +21,6 @@ ln -sfv $download_dir/.emoji ~/.emoji
 ln -sfTv $download_dir/.config/dunst/ ~/.config/dunst
 ln -sfTv $download_dir/.config/feh/ ~/.config/feh
 ln -sfTv $download_dir/.config/neofetch/ ~/.config/neofetch
-ln -sfTv $download_dir/.config/openbox/ ~/.config/openbox
 mkdir ~/.config/ranger
 ln -sfv $download_dir/.config/ranger/rc.conf ~/.config/ranger/rc.conf
 ln -sfv $download_dir/.config/ranger/rifle.conf ~/.config/ranger/rifle.conf
@@ -31,8 +30,9 @@ ln -sfv $download_dir/.config/ranger/commands_full.py ~/.config/ranger/commands_
 ln -sfTv $download_dir/.config/rofi/ ~/.config/rofi
 ln -sfTv $download_dir/.config/polybar/ ~/.config/polybar
 ln -sfTv $download_dir/.config/sxhkd/ ~/.config/sxhkd
-# uncomment this line to use i3 config instead of bspwm
+# uncomment this line to use a different window manager config instead of bspwm
 #ln -sfTv $download_dir/.config/i3/ ~/.config/i3
+#ln -sfTv $download_dir/.config/openbox/ ~/.config/openbox
 ln -sfTv $download_dir/.config/bspwm/ ~/.config/bspwm
 ln -sfTv $download_dir/.config/zathura/ ~/.config/zathura
 ln -sfTv $download_dir/.config/newsboat/ ~/.newsboat # Needs further modification
