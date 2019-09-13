@@ -90,6 +90,9 @@ super + {alt,shift} + {h,j,k,l}
 	bspc node -{s,n} {west,south,north,east} --follow
 
 super + alt + bracket{left,right}
+	bspc node -d {prev,next}.occupied --follow
+
+super + alt + brace{left,right}
 	bspc node -d {prev,next} --follow
 
 # focus the node for the given path jump
