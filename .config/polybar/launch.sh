@@ -11,3 +11,9 @@ polybar -r ashes &
 
 echo "Polybar launched..."
 notify-send "Polybar Launched"
+
+#if [ -n "$(pgrep bspwm)" ]; then
+#
+#	bspc config top_padding 19
+#
+#fi
