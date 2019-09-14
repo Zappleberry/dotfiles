@@ -43,3 +43,4 @@ color listnormal_unread                                     green     default
 color listfocus_unread                                      red       default bold
 
 external-url-viewer "urlview"
+browser "urlhandler"
