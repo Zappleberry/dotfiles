@@ -240,6 +240,7 @@ format-prefix-foreground = #c795ae
 ;format-underline = ${self.format-prefix-foreground}
 label = %percentage_used:2%% %percentage_swap_used:2%%
 
+; TODO: Add formatting here to create easier to use
 [module/vpn-wireguard]
 type = custom/script
 exec = ~/.config/polybar/scripts/vpn-wireguard.sh
@@ -265,6 +266,7 @@ interval = 3.0
 [module/transmission]
 type = custom/script
 exec = ~/.config/polybar/scripts/transmission.sh
+;label-maxlen = 30
 interval = 3.0
 ;format-underline = #aec795
 click-left = urxvt -e "transmission-remote-cli"
@@ -439,8 +441,11 @@ animation-discharging-framerate = 750
 
 [module/temperature]
 type = internal/temperature
-thermal-zone = 2
-warn-temperature = 60
+;thermal-zone = 2
+hwmon-path=/sys/devices/platform/coretemp.0/hwmon/hwmon0/temp4_input
+
+base-temperature = 20
+warn-temperature = 75
 
 format = <ramp> <label>
 format-color-theme = #c795ae
@@ -453,7 +458,12 @@ label-warn = %temperature-c%
 label-warn-foreground = ${self.format-color-theme}
 
 ramp-font = 3
-ramp-0 = ""
+ramp-0 = ""
+ramp-1 = ""
+ramp-2 = ""
+ramp-3 = ""
+ramp-4 = ""
+
 ramp-foreground = ${self.format-color-theme}
 
 ;[module/powermenu]
