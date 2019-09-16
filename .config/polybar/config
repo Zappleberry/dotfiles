@@ -271,7 +271,7 @@ interval = 3.0
 [module/transmission]
 type = custom/script
 exec = ~/.config/polybar/scripts/transmission.sh
-;label-maxlen = 30
+;format-maxlen = 30
 interval = 3.0
 ;format-underline = #aec795
 click-left = urxvt -e "transmission-remote-cli"
