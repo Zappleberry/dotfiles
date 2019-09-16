@@ -493,7 +493,7 @@ format-volume-padding = 1
 format-muted-padding = 1
 format-color-theme = #95aec7
 ;format-volume-underline = ${self.format-color-theme}
-format-muted-underline = #c7ccd1
+;format-muted-underline = #c7ccd1
 
 ramp-volume-0 = 
 ramp-volume-1 = 
