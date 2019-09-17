@@ -291,13 +291,15 @@ format-connected = <ramp-signal> <label-connected>
 format-color-theme = #ae95c7
 ;format-connected-underline = #ae95c7
 ;format-prefix = " "
-label-connected = %essid%
-
+label-connected = %essid% %signal%
+;  %downspeed:3%  %upspeed:3%
+ 
 ;format-disconnected = 
 format-disconnected = <label-disconnected>
 ;format-disconnected-underline = ${self.format-color-theme}
 label-disconnected = %ifname% disconnected
 label-disconnected-foreground = ${self.format-color-theme}
+disconnected-click-left = urxvt -e "nmtui"
 
 ramp-signal-0 = 
 ramp-signal-1 = 
@@ -499,6 +501,7 @@ ramp-foreground = ${self.format-color-theme}
 ;menu-2-1-exec = menu-open-0
 
 [module/volume]
+
 type=internal/alsa
 format-volume = <ramp-volume> <label-volume>%
 format-headphones = <ramp-headphones> <label-volume>%
@@ -515,10 +518,19 @@ format-color-theme = #95aec7
 ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
-ramp-headphones-0 = 
-ramp-headphones-1 = 
 ramp-volume-foreground = ${self.format-color-theme}
+
+; Adding support to recognise headphones being plugged in
+speaker-mixer=Speaker
+headphone-mixer=Headphone
+; This is subject to change depending on the soundcard
+headphone-id=16
+
+ramp-headphones-0 = 
+ramp-headphones-1 = 
 ramp-headphones-foreground = ${self.format-color-theme}
+
+; Note that this may not update the sound notification until sound is played to the output. Not sure what causes this, something with alsa
 
 [settings]
 screenchange-reload = true
