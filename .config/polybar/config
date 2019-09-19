@@ -526,8 +526,7 @@ headphone-mixer=Headphone
 ; This is subject to change depending on the soundcard
 headphone-id=16
 
-ramp-headphones-0 = 
-ramp-headphones-1 = 
+ramp-headphones-0 = 
 ramp-headphones-foreground = ${self.format-color-theme}
 
 ; Note that this may not update the sound notification until sound is played to the output. Not sure what causes this, something with alsa

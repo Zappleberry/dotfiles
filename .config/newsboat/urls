@@ -1,4 +1,3 @@
-http://lukesmith.xyz/rss.xml
 https://thatoneprivacysite.net/feed/ "~That One Privacy Blog"
 https://www.fsf.org/static/fsforg/rss/news.xml "~FSF News"
 
@@ -8,7 +7,6 @@ https://www.reddit.com/r/linux.rss "~r/linux"
 https://www.reddit.com/r/freesoftware.rss "~r/freesoftware"
 https://www.reddit.com/r/privacy.rss "~r/privacy"
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~YT: Luke Smith"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A "~YT: Numberphile"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "~YT: Computerphile"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA "~YT: Bryan Lunduke"
