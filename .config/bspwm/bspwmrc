@@ -2,7 +2,8 @@
 
 sxhkd &
 
-bspc monitor -d '' '' '' '' '' '' '' ''
+bspc monitor eDP1 -d '' '' '' '' '' '' '' ''
+#bspc monitor HDMI1 -s eDP1
 
 $HOME/.config/polybar/launch.sh &
 
@@ -24,6 +25,8 @@ bspc rule -a Signal desktop='^8'
 bspc rule -a Discord desktop='^8'
 bspc rule -a Zathura state=tiled
 
+# bspc rule -a Polybar manage=off
+
 xmodmap ~/.Xmodmap
 xset b off
 
@@ -36,9 +39,6 @@ calcurse --daemon
 
 feh --randomize --bg-fill ~/Pictures/Wallpapers/Landscapes/*
 
-# have to put this here to prevent extra top padding around polybar
-bspc config top_padding         19
-
 # places polybar instance below the bspwm windows but above bspwm root
 if [ -z "$(ifinstalled xdo)" ]; then
 
@@ -46,3 +46,6 @@ if [ -z "$(ifinstalled xdo)" ]; then
 	xdo above -N "Polybar" -t $(xdo id -N Bspwm -n root)
 
 fi
+
+# have to put this here to prevent extra top padding around polybar
+bspc config top_padding         19
