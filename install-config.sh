@@ -35,7 +35,9 @@ ln -sfTv $download_dir/.config/sxhkd/ ~/.config/sxhkd
 #ln -sfTv $download_dir/.config/openbox/ ~/.config/openbox
 ln -sfTv $download_dir/.config/bspwm/ ~/.config/bspwm
 ln -sfTv $download_dir/.config/zathura/ ~/.config/zathura
-ln -sfTv $download_dir/.config/newsboat/ ~/.newsboat # Needs further modification
+mkdir ~/.newsboat
+ln -sfv $download_dir/.config/newsboat/config ~/.newsboat/config
+ln -sfv $download_dir/.config/newsboat/urls ~/.newsboat/urls
 ln -sfv $download_dir/.config/urlview ~/.urlview
 
 # link fonts
