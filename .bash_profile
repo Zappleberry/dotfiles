@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set random wallpaper on login
-set-randomwal
+# set-randomwal
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
