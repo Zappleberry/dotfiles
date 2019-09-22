@@ -249,7 +249,7 @@ label = %percentage_used:2%% %percentage_swap_used:2%%
 [module/void-updates]
 type = custom/script
 exec = ~/.config/polybar/scripts/void-updates.sh
-interval = 30.0
+interval = 300.0
 
 ; TODO: Add formatting here to create easier to use
 [module/vpn-wireguard]
