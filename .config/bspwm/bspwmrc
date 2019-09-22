@@ -37,7 +37,8 @@ pkill xcompmgr; xcompmgr &
 pulseaudio --start
 calcurse --daemon
 
-feh --randomize --bg-fill ~/Pictures/Wallpapers/Landscapes/*
+# feh --randomize --bg-fill ~/Pictures/Wallpapers/Landscapes/*
+set-wallpaper
 
 # places polybar instance below the bspwm windows but above bspwm root
 if [ -z "$(ifinstalled xdo)" ]; then

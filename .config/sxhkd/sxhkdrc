@@ -29,7 +29,7 @@ super + x
 	i3lock -i ~/.lock.png
 
 super + F9
-	feh --randomize --bg-fill ~/Pictures/Wallpapers/Landscapes/*
+	set-randomwal
 
 XF86MonBrightness{Up,Down}
 	xbacklight -{in,de}c 5
