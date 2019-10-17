@@ -1,0 +1,23 @@
+20332 Lenovo Yoga 2 11
+Resolution: 1366x768 @ 60.02Hz
+CPU: Intel Pentium N3540 (4) @ 2.665GHz 
+GPU: Intel Atom Processor Z36xxx/Z37xxx Series Graphics & Display
+
+00:00.0 Host bridge: Intel Corporation Atom Processor Z36xxx/Z37xxx Series SoC Transaction Register (rev 0e)
+00:02.0 VGA compatible controller: Intel Corporation Atom Processor Z36xxx/Z37xxx Series Graphics & Display (rev 0e)
+00:13.0 SATA controller: Intel Corporation Atom Processor E3800 Series SATA AHCI Controller (rev 0e)
+00:14.0 USB controller: Intel Corporation Atom Processor Z36xxx/Z37xxx, Celeron N2000 Series USB xHCI (rev 0e)
+00:1a.0 Encryption controller: Intel Corporation Atom Processor Z36xxx/Z37xxx Series Trusted Execution Engine (rev 0e)
+00:1b.0 Audio device: Intel Corporation Atom Processor Z36xxx/Z37xxx Series High Definition Audio Controller (rev 0e)
+00:1c.0 PCI bridge: Intel Corporation Atom Processor E3800 Series PCI Express Root Port 1 (rev 0e)
+00:1f.0 ISA bridge: Intel Corporation Atom Processor Z36xxx/Z37xxx Series Power Control Unit (rev 0e)
+00:1f.3 SMBus: Intel Corporation Atom Processor E3800 Series SMBus Controller (rev 0e)
+01:00.0 Network controller: Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter (rev 01)
+
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 005: ID 048d:8386 Integrated Technology Express, Inc. ITE Device(8386)
+Bus 001 Device 003: ID 03eb:8858 Atmel Corp. Atmel maXTouch Digitizer
+Bus 001 Device 111: ID 0cf3:3004 Qualcomm Atheros Communications AR3012 Bluetooth 4.0
+Bus 001 Device 004: ID 5986:0535 Acer, Inc USB2.0 Hub
+Bus 001 Device 002: ID 05e3:0608 Genesys Logic, Inc. Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub

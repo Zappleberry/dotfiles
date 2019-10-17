@@ -26,7 +26,7 @@ super + alt + m
 	urxvt -e neomutt
 
 super + x
-	i3lock -i ~/.lock.png
+	lock_screen
 
 super + F9
 	set-randomwal
