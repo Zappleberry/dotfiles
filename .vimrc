@@ -26,13 +26,12 @@ let mapleader = " "
 
 " Spellcheck keys
 
-	map <leader>ss :setlocal spell! spelllang=en_us<CR>
-	map <leader>sj ]s
-	map <leader>sk [s
-	map <leader>sr z=
+	noremap <leader>ss :setlocal spell! spelllang=en_us<CR>
+	noremap <leader>sj ]s
+	noremap <leader>sk [s
+	noremap <leader>sr z=
 
 " Get Visual Selection command
-
 
 	function! GetVisualSelection()
 		let [lnum1, col1] = getpos("'<")[1:2]
