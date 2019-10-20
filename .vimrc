@@ -1,5 +1,37 @@
 let mapleader = " "
 
+" Auto settup and install plugged
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+" Plugin load
+
+call plug#begin('~/.vim/bundle')
+
+	" vim plugin to autoclose paranthesis
+	Plug 'Townk/vim-autoclose'
+
+	" vim plugin to add better support for LaTeX
+	" Plug 'lervag/vimtex'
+	
+	" vim plugin for colors
+	Plug 'chriskempson/base16-vim'
+
+	" plugin for powerline
+	" Plug 'powerline/powerline'
+
+	" plugin for airline
+	Plug 'vim-airline/vim-airline'
+
+	" plugin for airline themes
+	Plug 'vim-airline/vim-airline-themes'
+
+call plug#end()
+
 " Basic settings
 
 	syntax on
@@ -7,6 +39,14 @@ let mapleader = " "
 	set number relativenumber
 	set ai
 	set tabstop=5
+
+	" Sets colorscheme to base16-ashes
+	colorscheme base16-ashes
+	let g:airline_theme='base16_ashes'
+	" Removes Opaque background
+	hi Normal guibg=NONE ctermbg=NONE
+	hi LineNr ctermbg=NONE
+	hi CursorLineNr ctermbg=NONE ctermfg=green
 
 " Autocomplete
 
