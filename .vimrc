@@ -38,6 +38,8 @@ call plug#end()
 	set encoding=utf-8
 	set number relativenumber
 	set ai
+	set wrap
+	set linebreak
 	set tabstop=5
 
 	" Sets colorscheme to base16-ashes
@@ -46,7 +48,7 @@ call plug#end()
 	" Removes Opaque background
 	hi Normal guibg=NONE ctermbg=NONE
 	hi LineNr ctermbg=NONE
-	hi CursorLineNr ctermbg=NONE ctermfg=green
+	hi CursorLineNr ctermbg=NONE ctermfg=yellow
 
 " Autocomplete
 
@@ -58,11 +60,13 @@ call plug#end()
 
 " Common keymaps
 
-	map <leader>fs :w<CR>
-	map <leader>fq :wq<CR>
-	map <leader>p :read !xclip -o -selection clipboard<CR>
-	map <leader>y :<C-u>exec "!echo \"" . GetVisualSelection() . "\" \| xclip -i -selection clipboard"<CR><CR>
-	map <leader><tab> /<++><CR>4s
+	noremap <leader>fs :w<CR>
+	noremap <leader>fq :wq<CR>
+	noremap <leader>p :read !xclip -o -selection clipboard<CR>
+	noremap <leader>y :<C-u>exec "!echo \"" . GetVisualSelection() . "\" \| xclip -i -selection clipboard"<CR><CR>
+	noremap <leader><tab> /<++><CR>4s
+	noremap <leader>fr :e<CR>
+	noremap <leader>fR :so $MYVIMRC<CR>
 
 " Spellcheck keys
 
