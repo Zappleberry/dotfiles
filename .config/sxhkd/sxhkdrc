@@ -10,6 +10,9 @@ super + @space
 super + d
 	dmenu_run -i -p 'Run:' -fn 'Hack-9' -nb '#1c2023' -nf '#f3f4f5' -sb '#ae95c7' -sf '#1c2023'
 
+super + r
+	urxvt -e ranger
+
 # make sxhkd reload its configuration files:
 super + {_, alt +} F5
 	{pkill -USR1 -x sxhkd && notify-send "sxhkd restarted", bspc wm -r && notify-send "bspwm restarted"}
