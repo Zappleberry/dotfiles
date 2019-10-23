@@ -30,6 +30,8 @@ call plug#begin('~/.vim/bundle')
 	" plugin for airline themes
 	Plug 'vim-airline/vim-airline-themes'
 
+	Plug 'junegunn/goyo.vim'
+
 call plug#end()
 
 " Basic settings
