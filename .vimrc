@@ -32,6 +32,8 @@ call plug#begin('~/.vim/bundle')
 
 	Plug 'junegunn/goyo.vim'
 
+	Plug 'zmughal/vim-matlab-fold'
+
 call plug#end()
 
 " Basic settings
@@ -51,6 +53,10 @@ call plug#end()
 	hi Normal guibg=NONE ctermbg=NONE
 	hi LineNr ctermbg=NONE
 	hi CursorLineNr ctermbg=NONE ctermfg=yellow
+	" Fixes color scheme issues with Spell
+	hi SpellBad cterm=underline ctermbg=NONE ctermfg=magenta
+	hi SpellLocal cterm=underline ctermbg=NONE ctermfg=red
+	hi SpellRare cterm=underline ctermbg=NONE ctermfg=cyan
 
 " Autocomplete
 
