@@ -28,6 +28,9 @@ super + alt + {d,t,c}
 super + alt + m
 	urxvt -e neomutt
 
+super + alt + k
+	keepassxc --pw-stdin ~/.keepassdb/Psswd_Database.kdbx <<< $(dmenu-pass "Enter keepassxc password")
+
 super + x
 	lock_screen
 

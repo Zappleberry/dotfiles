@@ -67,13 +67,13 @@ font-3 = "Font Awesome 5 Free:style=Solid:size=7;0"
 
 modules-left = i3 bspwm
 modules-center = date
-modules-right = volume transmission void-updates vpn-wireguard wlan eth battery memory cpu temperature
+modules-right = volume transmission info-offlineimap void-updates vpn-wireguard wlan eth battery memory cpu temperature
 
 tray-position = right
 tray-padding = 1
 tray-background = ${colors.background}
 
-;wm-restack = bspwm
+wm-restack = bspwm
 ;wm-restack = i3
 
 ;override-redirect = false
@@ -287,6 +287,12 @@ type = custom/script
 exec = ~/.config/polybar/scripts/offimap.sh
 interval = 1.0
 ;format-underline = #aec795
+
+[module/info-offlineimap]
+type = custom/script
+exec = ~/.config/polybar/scripts/info-offlineimap.sh
+click-left = urxvt -e "neomutt"
+interval = 5.0
 
 [module/wlan]
 type = internal/network

@@ -1,5 +1,4 @@
 set selection-clipboard "clipboard"
-set window-title-basename "true"
 
 map <C-s> toggle_statusbar
 set guioptions ""

@@ -32,7 +32,7 @@ call plug#begin('~/.vim/bundle')
 
 	Plug 'junegunn/goyo.vim'
 
-	Plug 'zmughal/vim-matlab-fold'
+	" Plug 'zmughal/vim-matlab-fold'
 
 call plug#end()
 
@@ -82,6 +82,9 @@ call plug#end()
 	noremap <leader>sj ]s
 	noremap <leader>sk [s
 	noremap <leader>sr z=
+
+" Goyo keys
+ 	noremap <leader>gg :Goyo<CR>:so $MYVIMRC<CR>
 
 " Get Visual Selection command
 
