@@ -1,6 +1,7 @@
 set selection-clipboard "clipboard"
 
 map <C-s> toggle_statusbar
+map <A-a> exec zathura-wc $FILE
 set guioptions ""
 
 set default-bg                  "#171b1e"
