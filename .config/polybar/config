@@ -442,7 +442,7 @@ animation-charging-2 = ""
 animation-charging-3 = ""
 animation-charging-4 = ""
 animation-charging-foreground = ${self.format-color-theme}
-animation-charging-framerate = 350
+animation-charging-framerate = 250
 
 ;charging icon: 
 ;battery icons:

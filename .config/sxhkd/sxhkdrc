@@ -47,7 +47,7 @@ XF86Audio{Raise,Lower}Volume
 	amixer -q sset Master 5.00%{+,-}
 
 XF86AudioMute
-	echo "sset Master toggle\nsset Speaker unmute\nsset Headphone unmute" | amixer -q -s
+	echo -e "sset Master toggle\nsset Speaker unmute\nsset Headphone unmute" | amixer -q -s
 	#amixer -q sset Master toggle
 
 #
