@@ -70,6 +70,7 @@ call plug#end()
 
 	noremap <leader>fs :w<CR>
 	noremap <leader>fq :wq<CR>
+	noremap <leader>fQ :q!<CR>
 	noremap <leader>p :read !xclip -o -selection clipboard<CR>
 	noremap <leader>y :<C-u>exec "!echo \"" . GetVisualSelection() . "\" \| xclip -i -selection clipboard"<CR><CR>
 	noremap <leader><tab> /<++><CR>4s
