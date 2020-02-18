@@ -1,0 +1,11 @@
+@-moz-document url("about:blank") {
+  body {
+    background-color: #000 !important;
+  }
+}
+
+@-moz-document url("moz-extension://3c908cd3-3619-4562-93f9-2fb6b807ee5d/static/newtab.html") {
+  body {
+    background-color: #000 !important;
+  }
+}
