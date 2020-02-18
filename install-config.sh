@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 download_dir=$(pwd)
 
@@ -47,6 +47,10 @@ ln -sfTv $download_dir/.fonts/misc/ ~/.fonts/misc
 # linking spacemacs
 # This may become a .emacs.d in the future?
 ln -sfv $download_dir/.spacemacs ~/.spacemacs
+
+# Link UserChrome folder for firefox
+default_firefox=$(ls ~/.mozilla/firefox | grep -i "default")
+ln -sfTv $download_dir/.mozilla/firefox/chrome ~/.mozilla/firefox/$default_firefox/chrome
 
 # link bar
 #mkdir ~/.bar
