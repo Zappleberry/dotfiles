@@ -1,11 +1,27 @@
+:root {
+
+	   /* Color Rules */
+
+	   --background: #1c2023;
+	   --foreground: #f3f4f5;
+	   --light-grey: #c7ccd1;
+	   --grey: #747c84;
+	   --red: #c7ae95;
+	   --green: #95c7ae;
+	   --yellow: #aec795;
+	   --blue: #ae95c7;
+	   --magenta: #c795ae;
+	   --cyan: #95aec7;
+}
+
 @-moz-document url("about:blank") {
   body {
-    background-color: #000 !important;
+    background-color: var(--background) !important;
   }
 }
 
 @-moz-document url("moz-extension://3c908cd3-3619-4562-93f9-2fb6b807ee5d/static/newtab.html") {
   body {
-    background-color: #000 !important;
+    background-color: var(--background) !important;
   }
 }
