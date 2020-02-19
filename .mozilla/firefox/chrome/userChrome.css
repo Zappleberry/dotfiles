@@ -39,6 +39,14 @@ browser { background-color: var(--background) !important; }
 	   height: 2px !important;
 }
 
+tab:not([selected="true"]) .close-icon {
+	display: none !important;
+}
+
+tab:not([selected="true"]) {
+	max-width: 0px !important;
+}
+
 #PersonalToolbar {
 	   -moz-appearance: none !important;
 	   background-color: var(--background) !important;
