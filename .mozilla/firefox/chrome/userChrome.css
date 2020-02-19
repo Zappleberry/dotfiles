@@ -22,21 +22,21 @@ browser { background-color: var(--background) !important; }
 	   color: var(--foreground) !important;
 }
 
-#tabs-newtab-button{
-	   float: right !important;
+.tab-background {
+	border-top: 0px !important;
 }
 
-#tabs-newtab-button:hover {
-	   float: right !important;
+.tab-background[selected="true"] .tab-background-inner {
 	   background-color: var(--background) !important;
+}
+
+.tab-label[selected="true"] {
+	color: var(--green) !important;
 }
 
 .tab-line[selected="true"] {
 	   background-color: var(--green) !important;
-}
-
-.tab-background[selected="true"] {
-	   background-color: var(--red) !important;
+	   height: 2px !important;
 }
 
 #PersonalToolbar {
@@ -69,6 +69,14 @@ browser { background-color: var(--background) !important; }
 	   -moz-appearance: none !important;
 	   background-color: var(--background) !important;
 	   color: var(--foreground) !important;
+}
+
+#urlbar {
+	background-color: var(--background) !important;
+}
+
+#urlbar[focused="true"] {
+	border-color: var(--blue) !important;
 }
 
 #pocket-button {
