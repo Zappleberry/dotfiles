@@ -40,7 +40,7 @@ URxvt*background:       [75]#1c2023
 URxvt*depth:		32
 URxvt*font: 		xft:hack:size=9
 URxvt.scrollBar:	false
-URxvt.cursorColor:	#eead0e
+!!URxvt.cursorColor:	#eead0e
 
 !!URxvt*transparent: true
 !!URxvt*shading: 25
