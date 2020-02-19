@@ -15,3 +15,62 @@
 }
 
 browser { background-color: var(--background) !important; }
+
+#tabbrowser-tabs {
+	   -moz-appearance: none !important;
+	   background-color: var(--background) !important;
+	   color: var(--foreground) !important;
+}
+
+#tabs-newtab-button{
+	   float: right !important;
+}
+
+#tabs-newtab-button:hover {
+	   float: right !important;
+	   background-color: var(--background) !important;
+}
+
+.tab-line[selected="true"] {
+	   background-color: var(--green) !important;
+}
+
+.tab-background[selected="true"] {
+	   background-color: var(--red) !important;
+}
+
+#PersonalToolbar {
+	   -moz-appearance: none !important;
+	   background-color: var(--background) !important;
+	   color: var(--foreground) !important;
+}
+
+#PersonalToolbar menupopup {
+	   -moz-appearance: none !important;
+	   background-color: var(--background) !important;
+	   color: var(--foreground) !important;
+}
+
+#PersonalToolbar menuitem:hover {
+	   -moz-appearance: none !important;
+	   margin-top: 4px;
+	   margin-bottom: 4px;
+	   margin-left: 6px;
+	   background-color: var(--background) !important;
+	   color: var(--yellow) !important;
+}
+
+#PersonalToolbar toolbarbutton:hover {
+	   background-color: var(--background) !important;
+	   color: var(--yellow) !important;
+}
+
+#nav-bar {
+	   -moz-appearance: none !important;
+	   background-color: var(--background) !important;
+	   color: var(--foreground) !important;
+}
+
+#pocket-button {
+	display: none !important;
+}
