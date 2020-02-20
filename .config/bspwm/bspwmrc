@@ -33,6 +33,7 @@ bspc rule -a Zathura state=tiled
 
 xmodmap ~/.Xmodmap
 xset b off
+xsetroot -cursor_name left_ptr
 
 pkill megasync; megasync &
 pkill dunst; dunst &
