@@ -16,6 +16,10 @@
 
 browser { background-color: var(--background) !important; }
 
+#TabsToolbar {
+	   background-color: var(--background) !important;
+}
+
 #tabbrowser-tabs {
 	   -moz-appearance: none !important;
 	   background-color: var(--background) !important;
