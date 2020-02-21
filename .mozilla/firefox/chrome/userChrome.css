@@ -14,7 +14,39 @@
 	   --cyan: #95aec7;
 }
 
-browser { background-color: var(--background) !important; }
+browser {
+	background-color: var(--background) !important;
+}
+
+#nav-bar {
+	   -moz-appearance: none !important;
+	   background-color: var(--background) !important;
+	   color: var(--foreground) !important;
+}
+
+#urlbar {
+	background-color: var(--background) !important;
+}
+
+#urlbar[focused="true"] {
+	border-color: var(--blue) !important;
+}
+
+#pocket-button {
+	display: none !important;
+}
+
+.small-separator {
+	   -moz-appearance: none !important;
+	   background-color: var(--foreground) !important;
+	   color: var(--background) !important;
+}
+
+menuseparator {
+	   -moz-appearance: none !important;
+	   background-color: var(--foreground) !important;
+	   color: var(--background) !important;
+}
 
 #TabsToolbar {
 	   background-color: var(--background) !important;
@@ -63,34 +95,49 @@ tab:not([selected="true"]) {
 	   color: var(--foreground) !important;
 }
 
-#PersonalToolbar menuitem:hover {
+#bookmarks-menu-button menupopup {
+	   -moz-appearance: none !important;
+	   background-color: transparent !important;
+}
+
+#bookmarks-menu-button menuitem {
+	background-color: var(--background) !important;
+	color: var(--foreground) !important;
+}
+
+#bookmarks-menu-button menuitem:hover {
+	background-color: var(--background) !important;
+	color: var(--yellow) !important;
+}
+
+#BMB_bookmarksPopup menuseparator {
+	background-color: var(--foreground) !important;
+}
+
+.menuitem-iconic {
+	   background-color: var(--background) !important;
+	   color: var(--foreground) !important;
+}
+
+.menuitem-iconic:hover {
+	   background-color: var(--background) !important;
+	   color: var(--yellow) !important;
+}
+
+.bookmark-item {
+	   -moz-appearance: none !important;
+	   margin-top: 4px;
+	   margin-bottom: 4px;
+	   margin-left: 6px;
+	   background-color: var(--background) !important;
+	   color: var(--foreground) !important;
+}
+
+.bookmark-item:hover {
 	   -moz-appearance: none !important;
 	   margin-top: 4px;
 	   margin-bottom: 4px;
 	   margin-left: 6px;
 	   background-color: var(--background) !important;
 	   color: var(--yellow) !important;
-}
-
-#PersonalToolbar toolbarbutton:hover {
-	   background-color: var(--background) !important;
-	   color: var(--yellow) !important;
-}
-
-#nav-bar {
-	   -moz-appearance: none !important;
-	   background-color: var(--background) !important;
-	   color: var(--foreground) !important;
-}
-
-#urlbar {
-	background-color: var(--background) !important;
-}
-
-#urlbar[focused="true"] {
-	border-color: var(--blue) !important;
-}
-
-#pocket-button {
-	display: none !important;
 }
