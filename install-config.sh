@@ -44,9 +44,12 @@ ln -sfv $download_dir/.config/urlview ~/.urlview
 mkdir ~/.fonts
 ln -sfTv $download_dir/.fonts/misc/ ~/.fonts/misc
 
+# link cursors
+ln -sfTv $download_dir/.icons ~/.icons
+
 # linking spacemacs
 # This may become a .emacs.d in the future?
-ln -sfv $download_dir/.spacemacs ~/.spacemacs
+# ln -sfv $download_dir/.spacemacs ~/.spacemacs
 
 # Link UserChrome folder for firefox
 default_firefox=$(ls ~/.mozilla/firefox | grep -i "default")
