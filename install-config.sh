@@ -47,6 +47,9 @@ ln -sfTv $download_dir/.fonts/misc/ ~/.fonts/misc
 # link cursors
 ln -sfTv $download_dir/.icons ~/.icons
 
+# link themes
+ln -sfTv $download_dir/.themes ~/.themes
+
 # linking spacemacs
 # This may become a .emacs.d in the future?
 # ln -sfv $download_dir/.spacemacs ~/.spacemacs
