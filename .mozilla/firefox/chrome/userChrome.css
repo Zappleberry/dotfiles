@@ -114,6 +114,16 @@ tab:not([selected="true"]) {
 	background-color: var(--foreground) !important;
 }
 
+#bookmarksMenuPopup {
+	background-color: var(--background) !important;
+	border-color: var(--red) !important;
+}
+
+.popup-internal-box {
+	background-color: var(--background) !important;
+	color: var(--foreground) !important;
+}
+
 .menuitem-iconic {
 	   background-color: var(--background) !important;
 	   color: var(--foreground) !important;
@@ -122,6 +132,10 @@ tab:not([selected="true"]) {
 .menuitem-iconic:hover {
 	   background-color: var(--background) !important;
 	   color: var(--yellow) !important;
+}
+
+.menu-right {
+	filter: invert(100%) !important;
 }
 
 .bookmark-item {
