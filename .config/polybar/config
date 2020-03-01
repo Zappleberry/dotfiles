@@ -67,7 +67,8 @@ font-3 = "Font Awesome 5 Free:style=Solid:size=7;0"
 
 modules-left = i3 bspwm
 modules-center = date
-modules-right = volume transmission info-offlineimap void-updates vpn-wireguard wlan eth battery memory cpu temperature
+;modules-right = volume transmission info-offlineimap void-updates vpn-wireguard wlan eth battery memory cpu temperature
+modules-right = volume void-updates wlan eth battery memory cpu temperature
 
 tray-position = right
 tray-padding = 1
@@ -296,7 +297,7 @@ interval = 5.0
 
 [module/wlan]
 type = internal/network
-interface = wlp1s0
+interface = wlp2s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -515,6 +516,9 @@ ramp-foreground = ${self.format-color-theme}
 [module/volume]
 
 type=internal/alsa
+master-soundcard = hw:1
+speaker-soundcard = hw:1
+headphone-soundcard = hw:1
 format-volume = <ramp-volume> <label-volume>%
 format-headphones = <ramp-headphones> <label-volume>%
 format-muted = <label-muted>
@@ -536,7 +540,8 @@ ramp-volume-foreground = ${self.format-color-theme}
 speaker-mixer=Speaker
 headphone-mixer=Headphone
 ; This is subject to change depending on the soundcard
-headphone-id=16
+speaker-id = 13
+headphone-id = 1
 
 ramp-headphones-0 = 
 ramp-headphones-foreground = ${self.format-color-theme}

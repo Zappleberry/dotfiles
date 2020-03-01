@@ -26,6 +26,7 @@ browser {
 
 #urlbar {
 	background-color: var(--background) !important;
+	color: var(--foreground) !important;
 }
 
 #urlbar[focused="true"] {

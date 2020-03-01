@@ -44,10 +44,10 @@ super + XF86MonBrightness{Up,Down}
 	xbacklight -set {100,5}
 
 XF86Audio{Raise,Lower}Volume
-	amixer -q sset Master 5.00%{+,-}
+	amixer -q -c 1 sset Master 5.00%{+,-}
 
 XF86AudioMute
-	echo -e "sset Master toggle\nsset Speaker unmute\nsset Headphone unmute" | amixer -q -s
+	echo -e "sset Master toggle\nsset Speaker unmute\nsset Headphone unmute" | amixer -q -c 1 -s
 	#amixer -q sset Master toggle
 
 #
