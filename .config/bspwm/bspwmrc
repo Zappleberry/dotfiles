@@ -9,7 +9,7 @@ $HOME/.config/polybar/launch.sh &
 
 bspc config border_width         1
 bspc config window_gap           4
-bspc config top_padding         19
+bspc config top_padding         24
 bspc config bottom_padding       0
 bspc config right_padding        0
 bspc config left_padding         0
@@ -54,4 +54,4 @@ if [ -z "$(ifinstalled xdo)" ]; then
 fi
 
 # have to put this here to prevent extra top padding around polybar
-bspc config top_padding         19
+bspc config top_padding         24

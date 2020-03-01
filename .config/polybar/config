@@ -30,7 +30,7 @@ alert = #bd2c40
 [bar/ashes]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 17
+height = 22
 ;offset-x = 1%
 ;offset-y = 0%
 radius = 0
@@ -60,10 +60,10 @@ module-margin-left = 1
 module-margin-right = 1
 module-padding-top = ${bar/ashes.overline-size}
 
-font-0 = hack:fontformat=truetype:size=9:antialias=true;1
-font-1 = "Font Awesome 5 Free:style=Solid:size=8;0"
-font-2 = "Font Awesome 5 Free:style=Regular:size=8;0"
-font-3 = "Font Awesome 5 Free:style=Solid:size=7;0"
+font-0 = hack:fontformat=truetype:size=14:antialias=true;1
+font-1 = "Font Awesome 5 Free:style=Solid:size=12;0"
+font-2 = "Font Awesome 5 Free:style=Regular:size=12;0"
+font-3 = "Font Awesome 5 Free:style=Solid:size=10;0"
 
 modules-left = i3 bspwm
 modules-center = date

@@ -40,7 +40,7 @@ Xcursor.theme: capitaine-cursors
 URxvt.intensityStyles:	false
 URxvt*background:       [75]#1c2023
 URxvt*depth:		32
-URxvt*font: 		xft:hack:size=9
+URxvt*font: 		xft:hack:size=14
 URxvt.scrollBar:	false
 !!URxvt.cursorColor:	#eead0e
 
