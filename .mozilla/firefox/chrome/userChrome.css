@@ -84,6 +84,15 @@ tab:not([selected="true"]) {
 	max-width: 0px !important;
 }
 
+.tab-close-button:hover{
+	color: var(--red) !important;
+	background: var(--background) !important;
+}
+
+.tab-close-button{
+	color: var(--grey) !important;
+}
+
 #PersonalToolbar {
 	   -moz-appearance: none !important;
 	   background-color: var(--background) !important;
