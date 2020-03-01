@@ -18,10 +18,18 @@ browser {
 	background-color: var(--background) !important;
 }
 
+.browser-toolbar{
+	background-color: var(--background) !important;
+}
+
 #nav-bar {
 	   -moz-appearance: none !important;
 	   background-color: var(--background) !important;
 	   color: var(--foreground) !important;
+}
+
+#personal-bookmarks{
+	background-color: var(--background) !important;
 }
 
 #urlbar {

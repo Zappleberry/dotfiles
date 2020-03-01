@@ -8,7 +8,7 @@ super + @space
 
 # program launcher
 super + d
-	dmenu_run -i -p 'Run:' -fn 'Hack-9' -nb '#1c2023' -nf '#f3f4f5' -sb '#ae95c7' -sf '#1c2023'
+	dmenu_run -i -p 'Run:' -fn 'Hack-14' -nb '#1c2023' -nf '#f3f4f5' -sb '#ae95c7' -sf '#1c2023'
 
 super + r
 	urxvt -e ranger
