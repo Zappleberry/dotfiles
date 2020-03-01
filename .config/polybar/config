@@ -464,8 +464,8 @@ animation-discharging-framerate = 750
 
 [module/temperature]
 type = internal/temperature
-;thermal-zone = 2
-hwmon-path=/sys/devices/platform/coretemp.0/hwmon/hwmon0/temp4_input
+thermal-zone = 4
+;hwmon-path=/sys/devices/platform/coretemp.0/hwmon/hwmon0/temp4_input
 
 base-temperature = 20
 warn-temperature = 75
@@ -517,9 +517,9 @@ ramp-foreground = ${self.format-color-theme}
 [module/volume]
 
 type=internal/alsa
-master-soundcard = hw:1
-speaker-soundcard = hw:1
-headphone-soundcard = hw:1
+;master-soundcard = hw:1
+;speaker-soundcard = hw:1
+;headphone-soundcard = hw:1
 format-volume = <ramp-volume> <label-volume>%
 format-headphones = <ramp-headphones> <label-volume>%
 format-muted = <label-muted>
