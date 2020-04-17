@@ -1,4 +1,5 @@
 set selection-clipboard "clipboard"
+set font 'Hack 14'
 
 map <C-s> toggle_statusbar
 map <A-a> exec zathura-wc $FILE
